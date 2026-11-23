@@ -11,11 +11,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public final class Coordinador {
     private final Configuracion config;
     private final AtomicInteger dentro = new AtomicInteger();
     private final boolean inseguro;
+    private final long[] latidos = new long[3];
+    private final boolean[] activas = new boolean[3];
 
     private Coordinador(Configuracion config, boolean inseguro) {
         this.config = config;
@@ -31,8 +35,10 @@ public final class Coordinador {
 
     private void ejecutar() throws IOException {
         Files.createDirectories(Path.of("logs"));
-        try (var servidor = new ServerSocket()) {
+        try (var servidor = new ServerSocket();
+             var monitor = Executors.newSingleThreadScheduledExecutor()) {
             servidor.bind(new InetSocketAddress(config.host(), config.puerto()));
+            monitor.scheduleAtFixedRate(this::detectarCaidas, 100, 100, TimeUnit.MILLISECONDS);
             System.out.printf("Coordinador 0 en %s:%d, aforo %d, modo %s%n",
                     config.host(), config.puerto(), config.aforo(), inseguro ? "inseguro" : "normal");
             while (true) {
@@ -73,7 +79,50 @@ public final class Coordinador {
             return "RECHAZADA|solicitud inválida";
         }
 
-        return inseguro ? operar(campos[0]) : operarSeguro(campos[0]);
+        if (campos[0].equals("LATIDO")) {
+            registrarLatido(Integer.parseInt(campos[1]));
+            return "RECIBIDA";
+        }
+        String respuesta = inseguro ? operar(campos[0]) : operarSeguro(campos[0]);
+        return campos[0].equals("ESTADO") ? respuesta + "|" + estadoPuertas() : respuesta;
+    }
+
+    private synchronized void registrarLatido(int puerta) {
+        int indice = puerta - 1;
+        latidos[indice] = System.nanoTime();
+        if (!activas[indice]) {
+            activas[indice] = true;
+            registrarTransicion(puerta, "ACTIVA");
+        }
+    }
+
+    private synchronized void detectarCaidas() {
+        long ahora = System.nanoTime();
+        for (int i = 0; i < activas.length; i++) {
+            if (activas[i] && ahora - latidos[i] >= TimeUnit.SECONDS.toNanos(6)) {
+                activas[i] = false;
+                registrarTransicion(i + 1, "CAIDA");
+            }
+        }
+    }
+
+    private void registrarTransicion(int puerta, String estado) {
+        String evento = "P" + puerta + " " + estado;
+        System.out.println(evento);
+        try {
+            Files.writeString(Path.of("logs", "coordinador.log"), evento + System.lineSeparator(),
+                    StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+        } catch (IOException error) {
+            System.err.println("Error de bitácora: " + error.getMessage());
+        }
+    }
+
+    private synchronized String estadoPuertas() {
+        return "P1=" + estado(0) + ", P2=" + estado(1) + ", P3=" + estado(2);
+    }
+
+    private String estado(int indice) {
+        return activas[indice] ? "ACTIVA" : "CAIDA";
     }
 
     private synchronized String operarSeguro(String orden) {
