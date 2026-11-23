@@ -7,9 +7,7 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -18,12 +16,14 @@ public final class Coordinador {
     private final Configuracion config;
     private final AtomicInteger dentro = new AtomicInteger();
     private final boolean inseguro;
+    private final Bitacora bitacora;
     private final long[] latidos = new long[3];
     private final boolean[] activas = new boolean[3];
 
-    private Coordinador(Configuracion config, boolean inseguro) {
+    private Coordinador(Configuracion config, boolean inseguro) throws IOException {
         this.config = config;
         this.inseguro = inseguro;
+        this.bitacora = new Bitacora(0);
     }
 
     public static void main(String[] args) throws IOException {
@@ -34,10 +34,10 @@ public final class Coordinador {
     }
 
     private void ejecutar() throws IOException {
-        Files.createDirectories(Path.of("logs"));
         try (var servidor = new ServerSocket();
              var monitor = Executors.newSingleThreadScheduledExecutor()) {
             servidor.bind(new InetSocketAddress(config.host(), config.puerto()));
+            bitacora.local("INICIO", inseguro ? "inseguro" : "normal");
             monitor.scheduleAtFixedRate(this::detectarCaidas, 100, 100, TimeUnit.MILLISECONDS);
             System.out.printf("Coordinador 0 en %s:%d, aforo %d, modo %s%n",
                     config.host(), config.puerto(), config.aforo(), inseguro ? "inseguro" : "normal");
@@ -54,7 +54,19 @@ public final class Coordinador {
              var salida = new DataOutputStream(conexion.getOutputStream())) {
             conexion.setSoTimeout(5000);
             while (true) {
-                salida.writeUTF(procesar(entrada.readUTF()));
+                String[] campos = entrada.readUTF().split("\\|", -1);
+                long remoto = marcaRecibida(campos);
+                String origen = campos.length == 5 && campos[3].matches("[1-4]") ? campos[3] : "?";
+                if (remoto > 0) {
+                    String evento = campos[0].matches("ENTRAR|SALIR|ESTADO|LATIDO") ? campos[0] : "INVALIDA";
+                    bitacora.recibir(remoto, "origen=" + origen + " reloj=" + remoto + " " + evento);
+                } else {
+                    bitacora.local("RECIBIR_INVALIDA", "sin marca válida");
+                }
+                String respuesta = procesar(campos, remoto > 0 && !origen.equals("?"));
+                long marca = bitacora.local("ENVIAR", "destino=" + origen + " solicitud=" + remoto
+                        + " " + respuesta.replace('|', ' '));
+                salida.writeUTF(respuesta + "|" + marca);
                 salida.flush();
             }
         } catch (EOFException fin) {
@@ -64,18 +76,23 @@ public final class Coordinador {
         }
     }
 
-    private String procesar(String mensaje) throws IOException {
-        String[] campos = mensaje.split("\\|", -1);
+    private static long marcaRecibida(String[] campos) {
+        if (campos.length == 5 && campos[4].matches("[1-9][0-9]{0,14}")) {
+            return Long.parseLong(campos[4]);
+        }
+        return 0;
+    }
+
+    private String procesar(String[] campos, boolean relojValido) {
         String token = campos.length > 2 ? campos[2] : "";
         if (!config.token().equals(token)) {
-            String evento = "TOKEN_INVALIDO" + System.lineSeparator();
-            Files.writeString(Path.of("logs", "coordinador.log"), evento,
-                    StandardOpenOption.CREATE, StandardOpenOption.APPEND);
-            System.out.print(evento);
+            bitacora.local("TOKEN_INVALIDO", "solicitud rechazada");
+            System.out.println("TOKEN_INVALIDO");
             return "RECHAZADA|token inválido";
         }
 
-        if (campos.length != 3 || !campos[1].matches("[123]")) {
+        if (!relojValido || !campos[1].matches("[123]")
+                || (!campos[3].equals(campos[1]) && !campos[3].equals("4"))) {
             return "RECHAZADA|solicitud inválida";
         }
 
@@ -109,12 +126,7 @@ public final class Coordinador {
     private void registrarTransicion(int puerta, String estado) {
         String evento = "P" + puerta + " " + estado;
         System.out.println(evento);
-        try {
-            Files.writeString(Path.of("logs", "coordinador.log"), evento + System.lineSeparator(),
-                    StandardOpenOption.CREATE, StandardOpenOption.APPEND);
-        } catch (IOException error) {
-            System.err.println("Error de bitácora: " + error.getMessage());
-        }
+        bitacora.local(estado, "P" + puerta);
     }
 
     private synchronized String estadoPuertas() {

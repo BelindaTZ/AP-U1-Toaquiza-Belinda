@@ -10,6 +10,8 @@ import java.util.concurrent.Future;
 public final class PruebaCarga {
     public static void main(String[] args) throws Exception {
         var config = Configuracion.cargar(Path.of(args.length == 0 ? "config.properties" : args[0]));
+        var bitacora = new Bitacora(4);
+        bitacora.local("INICIO", "30 solicitudes");
         var preparados = new CountDownLatch(30);
         var inicio = new CountDownLatch(1);
         List<Future<String>> respuestas = new ArrayList<>();
@@ -22,7 +24,7 @@ public final class PruebaCarga {
                 respuestas.add(ejecutor.submit(() -> {
                     preparados.countDown();
                     inicio.await();
-                    return Conexion.solicitar(config, "ENTRAR|" + puerta + "|" + config.token());
+                    return Conexion.solicitar(config, bitacora, 4, puerta, "ENTRAR");
                 }));
             }
             preparados.await();
@@ -43,6 +45,6 @@ public final class PruebaCarga {
         System.out.printf("Permitidas: %d | Rechazadas: %d | Errores: %d%n",
                 permitidas, rechazadas, errores);
         System.out.println("Estado del coordinador: "
-                + Conexion.solicitar(config, "ESTADO|1|" + config.token()));
+                + Conexion.solicitar(config, bitacora, 4, 1, "ESTADO"));
     }
 }

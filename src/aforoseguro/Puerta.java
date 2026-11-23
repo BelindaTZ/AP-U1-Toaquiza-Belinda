@@ -14,40 +14,42 @@ public final class Puerta {
             return;
         }
 
-        String id = args[0];
+        int id = Integer.parseInt(args[0]);
         String nombre = switch (id) {
-            case "1" -> "Norte";
-            case "2" -> "Sur";
+            case 1 -> "Norte";
+            case 2 -> "Sur";
             default -> "Este";
         };
         Path archivo = Path.of(args.length == 2 ? args[1] : "config.properties");
         Configuracion config = Configuracion.cargar(archivo);
+        var bitacora = new Bitacora(id);
+        bitacora.local("INICIO", nombre);
         System.out.printf("P%s %s. Órdenes: entrar, salir, estado, cerrar.%n", id, nombre);
         try (var consola = new Scanner(System.in);
              var latidos = Executors.newSingleThreadScheduledExecutor()) {
-            latidos.scheduleAtFixedRate(() -> enviarLatido(config, id), 0, 2, TimeUnit.SECONDS);
+            latidos.scheduleAtFixedRate(() -> enviarLatido(config, bitacora, id), 0, 2, TimeUnit.SECONDS);
             while (consola.hasNextLine()) {
                 String orden = consola.nextLine().strip().toUpperCase(Locale.ROOT);
                 switch (orden) {
                     case "CERRAR" -> { return; }
-                    case "ENTRAR", "SALIR", "ESTADO" -> solicitar(config, id, orden);
+                    case "ENTRAR", "SALIR", "ESTADO" -> solicitar(config, bitacora, id, orden);
                     default -> System.out.println("Orden desconocida.");
                 }
             }
         }
     }
 
-    private static void enviarLatido(Configuracion config, String id) {
+    private static void enviarLatido(Configuracion config, Bitacora bitacora, int id) {
         try {
-            Conexion.solicitar(config, "LATIDO|" + id + "|" + config.token());
+            Conexion.solicitar(config, bitacora, id, id, "LATIDO");
         } catch (IOException error) {
-            // La próxima ejecución periódica vuelve a intentar el latido.
+            bitacora.local("SIN_RESPUESTA", "LATIDO");
         }
     }
 
-    private static void solicitar(Configuracion config, String id, String orden) {
+    private static void solicitar(Configuracion config, Bitacora bitacora, int id, String orden) {
         try {
-            String[] respuesta = Conexion.solicitar(config, orden + "|" + id + "|" + config.token())
+            String[] respuesta = Conexion.solicitar(config, bitacora, id, id, orden)
                     .split("\\|", -1);
             if (respuesta[0].equals("PERMITIDA") && respuesta.length >= 3) {
                 System.out.printf("PERMITIDA. Dentro: %s/%s%n", respuesta[1], respuesta[2]);
@@ -60,6 +62,7 @@ public final class Puerta {
                 System.out.println("Respuesta del coordinador inválida.");
             }
         } catch (IOException error) {
+            bitacora.local("SIN_RESPUESTA", orden);
             System.out.println("Coordinador sin respuesta. Operación sin confirmar.");
         }
     }
