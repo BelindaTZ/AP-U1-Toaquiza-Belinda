@@ -1,17 +1,17 @@
 # AforoSeguro
 
-Práctica previa de aplicaciones distribuidas con Java 21 y sockets TCP. Se compila con `javac` y usa la biblioteca estándar.
+AforoSeguro lleva la cuenta de cuántas personas hay dentro del Coliseo de Quevedo. Las puertas Norte, Sur y Este consultan al mismo coordinador para saber si queda espacio. Desde cualquiera de las tres se puede registrar una entrada o salida y consultar el aforo.
 
-## Compilar y arrancar
+## Cómo arrancarlo
 
-Desde la raíz del repositorio en PowerShell:
+Necesitas Java 21. Abre PowerShell en la carpeta del proyecto y ejecuta estos dos comandos para compilar y arrancar el coordinador:
 
 ```powershell
 javac -encoding UTF-8 -d target/aforoseguro (Get-ChildItem src/aforoseguro/*.java).FullName
 java -cp target/aforoseguro aforoseguro.Coordinador
 ```
 
-Con el coordinador activo, ejecuta cada puerta en una consola distinta desde la misma carpeta:
+Deja el coordinador abierto. Arranca cada puerta en su propia consola, siempre desde la carpeta del proyecto:
 
 ```powershell
 java -cp target/aforoseguro aforoseguro.Puerta 1
@@ -19,44 +19,36 @@ java -cp target/aforoseguro aforoseguro.Puerta 2
 java -cp target/aforoseguro aforoseguro.Puerta 3
 ```
 
-Cada puerta acepta `entrar`, `salir`, `estado` y `cerrar`. El coordinador y las puertas leen `config.properties` por defecto y aceptan una ruta alternativa como último argumento.
+Escribe `entrar`, `salir` o `estado`. Con `cerrar` terminas esa puerta. El aforo, la dirección, el puerto y el token se leen de `config.properties`. Puedes pasar otro archivo de configuración como último argumento.
 
-## Mensajes TCP
+## Qué probé
 
-Cada trama usa el formato de Java `DataOutputStream.writeUTF` y `DataInputStream.readUTF`. Un prefijo de dos bytes indica el tamaño del contenido en UTF-8 modificado. Se pueden enviar varias tramas consecutivas en la misma conexión.
+1. **Operación normal.** Registra una entrada en cada puerta y una salida por P2. Las tres consultas de estado deben mostrar `2/10`.
+2. **Aforo y token.** Arranca el coordinador desde cero y envía once entradas. La última debe rechazarse. Para probar el token, arranca una puerta con una copia de la configuración que tenga un token distinto. El rechazo queda en `logs/coordinador.log`.
+3. **Carga.** Arranca el coordinador con el recinto vacío y ejecuta `java -cp target/aforoseguro aforoseguro.PruebaCarga` en otra consola. El modo normal dejó entrar a 10 personas y rechazó 20 solicitudes. Para comparar, reinicia el coordinador con `java -cp target/aforoseguro aforoseguro.Coordinador --modo-inseguro` y vuelve a lanzar la prueba. En la ejecución del informe, este modo aceptó las 30.
+4. **Caída de una puerta.** Vuelve al modo normal, abre las tres puertas y detén P3. Tras unos seis segundos sin latidos debe aparecer como caída. Abre P3 de nuevo y comprueba que vuelve a aparecer activa.
+5. **Caída del coordinador.** Detén el coordinador e intenta entrar desde P1. La puerta informa que la entrada quedó sin confirmar.
+6. **Orden de los eventos.** Cierra los procesos y ejecuta `java -cp target/aforoseguro aforoseguro.OrdenTotal`. El resultado queda en `logs/orden_total.log`.
 
-| Mensaje | Campos |
-| --- | --- |
-| Solicitud | `OPERACIÓN\|ID_PUERTA\|TOKEN\|ID_EMISOR\|LAMPORT` |
-| Respuesta permitida | `PERMITIDA\|DENTRO\|AFORO\|LAMPORT` |
-| Respuesta de estado | `PERMITIDA\|DENTRO\|AFORO\|ESTADO_PUERTAS\|LAMPORT` |
-| Respuesta rechazada | `RECHAZADA\|MOTIVO\|LAMPORT` |
-| Respuesta a latido | `RECIBIDA\|LAMPORT` |
+Al reiniciar el coordinador, la ocupación vuelve a cero. Los registros se conservan y el reloj de cada proceso continúa desde la última marca de su archivo. Guarda una copia de `logs/` si quieres separar las salidas de otra prueba. Las capturas y las transcripciones están en `docs/img/` y `docs/evidencia/`.
 
-Las operaciones son `ENTRAR`, `SALIR`, `ESTADO` y `LATIDO`. El coordinador registra los rechazos de autenticación sin guardar el token. El emisor de `PruebaCarga` usa el identificador 4 y su bitácora queda en `logs/carga.log`.
+## Cómo se comunican las puertas
 
-## Pruebas manuales de la parte A
+Por TCP, cada solicitud lleva la operación, el número de puerta, el token y los datos del reloj de Lamport. Cada trama tiene un prefijo de dos bytes con el tamaño del texto, en UTF-8 modificado de Java. Así, el coordinador puede leer varias solicitudes seguidas sin mezclarlas.
 
-1. Con el coordinador recién iniciado, ejecuta `salir` y comprueba que se rechaza porque el recinto está vacío.
-2. Ejecuta `entrar` una vez en cada puerta y `salir` en P2. Consulta `estado` en las tres puertas. Deben mostrar `2/10`.
-3. Reinicia el coordinador para partir de cero. Envía once órdenes `entrar`. La última debe rechazarse por aforo completo.
-4. Crea una copia de `config.properties` con otro token, sin cambiar el archivo del coordinador. Arranca una puerta con la copia y ejecuta `entrar`. Comprueba el rechazo y la línea `TOKEN_INVALIDO` en la bitácora.
+```text
+OPERACIÓN|PUERTA|TOKEN|EMISOR|LAMPORT
+PERMITIDA|DENTRO|AFORO|LAMPORT
+PERMITIDA|DENTRO|AFORO|ESTADO_PUERTAS|LAMPORT
+RECHAZADA|MOTIVO|LAMPORT
+RECIBIDA|LAMPORT
+```
 
-## Carga, fallos y orden total
+`LATIDO` recibe `RECIBIDA`. `PruebaCarga` usa el identificador 4 y conserva sus eventos en `logs/carga.log`. El orden total reúne solo los registros del coordinador y las tres puertas.
 
-1. Arranca el coordinador normal con el recinto vacío. En otra consola ejecuta `java -cp target/aforoseguro aforoseguro.PruebaCarga`. Con aforo 10 deben verse 10 permitidas, 20 rechazadas y 10 personas dentro.
-2. Detén el coordinador y arráncalo con `java -cp target/aforoseguro aforoseguro.Coordinador --modo-inseguro`. Repite la prueba y anota el resultado. Este modo hace una pausa de 50 ms entre la comprobación del límite y el incremento.
-3. Vuelve al modo normal y arranca las tres puertas. Detén P3 y observa su estado cuando pasen 6 segundos desde su último latido. Arranca P3 de nuevo y confirma que vuelve a `ACTIVA`.
-4. Detén el coordinador y ejecuta `entrar` desde P1. La puerta avisa que la operación quedó sin confirmar.
-5. Detén las puertas y ejecuta `java -cp target/aforoseguro aforoseguro.OrdenTotal`. Genera `logs/orden_total.log` desde las cuatro bitácoras principales. El programa acepta una ruta alternativa a la carpeta de registros.
+## Regenerar los PDF
 
-Las bitácoras se agregan de forma acumulativa. Cada proceso retoma la mayor marca de su archivo si se reinicia. Para una nueva demostración, conserva una copia de los registros anteriores antes de apartar la carpeta `logs`. El contador de personas se almacena en memoria y vuelve a cero al reiniciar el coordinador. Ejecuta una sola instancia por identificador desde la misma carpeta de trabajo.
-
-Los resultados de una ejecución local están en `docs/evidencia/`. Para documentar una repetición con capturas, muestra `whoami`, `hostname` y `Get-Date` junto a la consola y guarda las imágenes en `docs/img/`. El estado de la red se consulta con `Get-NetAdapter | Format-Table Name,Status`.
-
-## Compilar los PDF
-
-Usa pdfLaTeX con los paquetes `fontenc`, `geometry`, `graphicx` y `hyperref`. Desde la raíz:
+Usa pdfLaTeX con los paquetes `fontenc`, `geometry`, `graphicx` y `hyperref`. Desde la carpeta del proyecto, entra a `docs` y ejecuta:
 
 ```powershell
 Set-Location docs
@@ -64,8 +56,6 @@ pdflatex -interaction=nonstopmode -halt-on-error informe.tex
 pdflatex -interaction=nonstopmode -halt-on-error informe.tex
 pdflatex -interaction=nonstopmode -halt-on-error entrega_SGA.tex
 ```
-
-`entrega_SGA.pdf` es la hoja de una página para la práctica. Antes de cualquier entrega, verifica los datos personales y comprueba que la URL apunte a un repositorio con contenido publicado.
 
 ## Código reutilizado
 

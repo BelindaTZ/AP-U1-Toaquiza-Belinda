@@ -5,25 +5,25 @@
 \usepackage[hidelinks]{hyperref}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
-\newcommand{\evidencia}[2]{%
-  \par\medskip\textbf{Figura #1. #2}\par
-  \includegraphics[width=\linewidth]{img/E#1.png}\par}
+\newcommand{\evidencia}[4][52mm]{%
+  \par\medskip\textbf{Figura #2. #3}\par
+  \includegraphics[width=\linewidth,height=#1,keepaspectratio]{img/#4.png}\par}
 \begin{document}
-{\Large\textbf{AforoSeguro: informe de práctica}}\par
-Belinda Toaquiza \quad Universidad Técnica Estatal de Quevedo\par
-Aplicaciones Distribuidas (ISR-701) \quad 23 de noviembre de 2026
+{\Large\textbf{AforoSeguro: informe}}\par
+Belinda Betzabeth Toaquiza Zambrano\quad Universidad Técnica Estatal de Quevedo\par
+Aplicaciones Distribuidas - 7mo A (ISR-701) \quad 23 de noviembre de 2026
 
 \section*{Escenarios}
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{@{}p{9mm}p{22mm}p{\dimexpr\linewidth-31mm-4\tabcolsep\relax}@{}}
 \textbf{ID} & \textbf{Evidencia} & \textbf{Observación} \\
-E0 & Figura 0 & Los dos adaptadores figuraban activos. La ejecución de práctica no acredita desconexión. \\
-E1 & Figura 1 & Entró una persona por puerta y salió una por P2. Las tres consultas dieron 2 de 10. \\
+E0 & Figura 0 & Los dos adaptadores figuraban activos. Falta una captura con la red desconectada. \\
+E1 & Figuras 1a a 1c & Entró una persona por puerta y salió una por P2. Las tres consultas dieron 2 de 10. \\
 E2 & Figura 2 & La entrada 11 fue rechazada. Los dos rechazos por token ausente o incorrecto quedaron registrados. \\
 E3 & Figura 3 & Normal: 10 permitidas, 20 rechazadas y 10 dentro. Inseguro: 30 permitidas, 0 rechazadas y 30 dentro. Cero errores de conexión en ambos modos. \\
-E4 & Figura 4 & P3 apareció caída 6,02 s después de detenerla y activa al volver a iniciarla. \\
+E4 & Figura 4 & P3 apareció caída después de detenerla y activa al volver a iniciarla. \\
 E5 & Figura 5 & Tras detener el coordinador, P1 informó que la operación quedó sin confirmar. \\
-E6 & Figura 6 & Se generó un archivo con 285 eventos ordenados por reloj y luego por identificador de proceso. \\
+E6 & Figura 6 & El registro de la repetición manual contiene 6678 eventos ordenados por reloj y por identificador de proceso. \\
 \end{tabular}
 
 \section*{Análisis}
@@ -38,18 +38,23 @@ E6 & Figura 6 & Se generó un archivo con 285 eventos ordenados por reloj y lueg
 \textbf{Limitación.} El reinicio del coordinador borra la ocupación en memoria. La administración tendría que reconciliar el aforo antes de reabrir.
 
 \clearpage
-\section*{Salidas de la ejecución local}
-Las figuras se generaron a partir de las transcripciones de la consola en \texttt{evidencia/}.
-\evidencia{0}{Estado observado de los adaptadores}
-\evidencia{1}{Operación normal por las tres puertas}
-\evidencia{2}{Límite, autenticación y tramas consecutivas}
+\section*{Red y operación normal}
+Las figuras 0 y 2 reproducen transcripciones de la primera ejecución local. Las demás son capturas de consola de una repetición manual. En las capturas manuales se ve la ruta del perfil de Windows. El nombre del equipo y la fecha y hora no aparecen en pantalla.
+\evidencia[35mm]{0}{Estado observado de los adaptadores}{E0}
+\evidencia[42mm]{1a}{P1 Norte}{E1-P1}
+\evidencia[46mm]{1b}{P2 Sur}{E1-P2}
+\evidencia[42mm]{1c}{P3 Este}{E1-P3}
 
 \clearpage
-\section*{Carga, fallos y causalidad}
-\evidencia{3}{Carga en modo normal e inseguro}
-\evidencia{4}{Caída y retorno de P3}
-\evidencia{5}{Intento de entrada con el coordinador detenido}
-\evidencia{6}{Orden total y pares causales}
+\section*{Aforo, carga y supervisión}
+\evidencia{2}{Límite, autenticación y tramas consecutivas}{E2}
+\evidencia{3}{Carga en modo normal e inseguro}{E3-manual}
+\evidencia{4}{Caída y retorno de P3}{E4-manual}
 
-En el primer par, P1 envió \texttt{ENTRAR} con marca 7 y el coordinador lo recibió con marca 13. En el segundo, P2 envió \texttt{ENTRAR} con marca 14 y el coordinador lo recibió con marca 15. En ambos casos los detalles de recepción identifican la puerta y la marca de envío, y la recepción figura después del envío.
+\clearpage
+\section*{Caída del coordinador y orden causal}
+\evidencia{5}{Intento de entrada con el coordinador detenido}{E5-manual}
+\evidencia{6}{Generación del registro ordenado}{E6-manual}
+
+El registro acumulado conserva los dos pares de la primera ejecución. P1 envió \texttt{ENTRAR} con marca 7 y el coordinador lo recibió con marca 13. P2 envió \texttt{ENTRAR} con marca 14 y el coordinador lo recibió con marca 15. En ambos casos el detalle de recepción identifica la puerta y la marca del envío.
 \end{document}

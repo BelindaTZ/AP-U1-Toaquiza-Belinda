@@ -17,3 +17,1287 @@
 277;2;RECIBIR;origen=0 reloj=276 solicitud=274 RECIBIDA
 278;2;ENVIAR;LATIDO puerta=2 destino=0
 281;2;RECIBIR;origen=0 reloj=280 solicitud=278 RECIBIDA
+282;2;INICIO;Sur
+283;2;ENVIAR;LATIDO puerta=2 destino=0
+293;2;RECIBIR;origen=0 reloj=292 solicitud=283 RECIBIDA
+294;2;ENVIAR;LATIDO puerta=2 destino=0
+297;2;RECIBIR;origen=0 reloj=296 solicitud=294 RECIBIDA
+298;2;ENVIAR;LATIDO puerta=2 destino=0
+301;2;RECIBIR;origen=0 reloj=300 solicitud=298 RECIBIDA
+302;2;ENVIAR;LATIDO puerta=2 destino=0
+306;2;RECIBIR;origen=0 reloj=305 solicitud=302 RECIBIDA
+307;2;ENVIAR;LATIDO puerta=2 destino=0
+310;2;RECIBIR;origen=0 reloj=309 solicitud=307 RECIBIDA
+311;2;ENVIAR;LATIDO puerta=2 destino=0
+314;2;RECIBIR;origen=0 reloj=313 solicitud=311 RECIBIDA
+315;2;ENVIAR;LATIDO puerta=2 destino=0
+318;2;RECIBIR;origen=0 reloj=317 solicitud=315 RECIBIDA
+319;2;ENVIAR;LATIDO puerta=2 destino=0
+322;2;RECIBIR;origen=0 reloj=321 solicitud=319 RECIBIDA
+323;2;ENVIAR;LATIDO puerta=2 destino=0
+326;2;RECIBIR;origen=0 reloj=325 solicitud=323 RECIBIDA
+327;2;ENVIAR;LATIDO puerta=2 destino=0
+330;2;RECIBIR;origen=0 reloj=329 solicitud=327 RECIBIDA
+331;2;ENVIAR;LATIDO puerta=2 destino=0
+334;2;RECIBIR;origen=0 reloj=333 solicitud=331 RECIBIDA
+335;2;ENVIAR;LATIDO puerta=2 destino=0
+338;2;RECIBIR;origen=0 reloj=337 solicitud=335 RECIBIDA
+339;2;ENVIAR;LATIDO puerta=2 destino=0
+342;2;RECIBIR;origen=0 reloj=341 solicitud=339 RECIBIDA
+343;2;ENVIAR;LATIDO puerta=2 destino=0
+346;2;RECIBIR;origen=0 reloj=345 solicitud=343 RECIBIDA
+347;2;ENVIAR;LATIDO puerta=2 destino=0
+350;2;RECIBIR;origen=0 reloj=349 solicitud=347 RECIBIDA
+351;2;ENVIAR;LATIDO puerta=2 destino=0
+354;2;RECIBIR;origen=0 reloj=353 solicitud=351 RECIBIDA
+355;2;ENVIAR;LATIDO puerta=2 destino=0
+358;2;RECIBIR;origen=0 reloj=357 solicitud=355 RECIBIDA
+359;2;ENVIAR;LATIDO puerta=2 destino=0
+362;2;RECIBIR;origen=0 reloj=361 solicitud=359 RECIBIDA
+363;2;ENVIAR;LATIDO puerta=2 destino=0
+366;2;RECIBIR;origen=0 reloj=365 solicitud=363 RECIBIDA
+367;2;ENVIAR;LATIDO puerta=2 destino=0
+370;2;RECIBIR;origen=0 reloj=369 solicitud=367 RECIBIDA
+371;2;ENVIAR;LATIDO puerta=2 destino=0
+374;2;RECIBIR;origen=0 reloj=373 solicitud=371 RECIBIDA
+375;2;ENVIAR;LATIDO puerta=2 destino=0
+378;2;RECIBIR;origen=0 reloj=377 solicitud=375 RECIBIDA
+379;2;ENVIAR;LATIDO puerta=2 destino=0
+382;2;RECIBIR;origen=0 reloj=381 solicitud=379 RECIBIDA
+383;2;ENVIAR;LATIDO puerta=2 destino=0
+386;2;RECIBIR;origen=0 reloj=385 solicitud=383 RECIBIDA
+387;2;ENVIAR;LATIDO puerta=2 destino=0
+390;2;RECIBIR;origen=0 reloj=389 solicitud=387 RECIBIDA
+391;2;ENVIAR;LATIDO puerta=2 destino=0
+394;2;RECIBIR;origen=0 reloj=393 solicitud=391 RECIBIDA
+395;2;ENVIAR;LATIDO puerta=2 destino=0
+398;2;RECIBIR;origen=0 reloj=397 solicitud=395 RECIBIDA
+399;2;ENVIAR;LATIDO puerta=2 destino=0
+402;2;RECIBIR;origen=0 reloj=401 solicitud=399 RECIBIDA
+403;2;ENVIAR;LATIDO puerta=2 destino=0
+406;2;RECIBIR;origen=0 reloj=405 solicitud=403 RECIBIDA
+407;2;ENVIAR;LATIDO puerta=2 destino=0
+410;2;RECIBIR;origen=0 reloj=409 solicitud=407 RECIBIDA
+411;2;ENVIAR;LATIDO puerta=2 destino=0
+414;2;RECIBIR;origen=0 reloj=413 solicitud=411 RECIBIDA
+415;2;ENVIAR;LATIDO puerta=2 destino=0
+418;2;RECIBIR;origen=0 reloj=417 solicitud=415 RECIBIDA
+419;2;ENVIAR;LATIDO puerta=2 destino=0
+422;2;RECIBIR;origen=0 reloj=421 solicitud=419 RECIBIDA
+423;2;ENVIAR;LATIDO puerta=2 destino=0
+426;2;RECIBIR;origen=0 reloj=425 solicitud=423 RECIBIDA
+427;2;ENVIAR;LATIDO puerta=2 destino=0
+430;2;RECIBIR;origen=0 reloj=429 solicitud=427 RECIBIDA
+431;2;ENVIAR;LATIDO puerta=2 destino=0
+434;2;RECIBIR;origen=0 reloj=433 solicitud=431 RECIBIDA
+435;2;ENVIAR;LATIDO puerta=2 destino=0
+438;2;RECIBIR;origen=0 reloj=437 solicitud=435 RECIBIDA
+439;2;ENVIAR;LATIDO puerta=2 destino=0
+442;2;RECIBIR;origen=0 reloj=441 solicitud=439 RECIBIDA
+443;2;ENVIAR;LATIDO puerta=2 destino=0
+446;2;RECIBIR;origen=0 reloj=445 solicitud=443 RECIBIDA
+447;2;ENVIAR;LATIDO puerta=2 destino=0
+450;2;RECIBIR;origen=0 reloj=449 solicitud=447 RECIBIDA
+451;2;ENVIAR;LATIDO puerta=2 destino=0
+454;2;RECIBIR;origen=0 reloj=453 solicitud=451 RECIBIDA
+455;2;ENVIAR;LATIDO puerta=2 destino=0
+458;2;RECIBIR;origen=0 reloj=457 solicitud=455 RECIBIDA
+459;2;ENVIAR;LATIDO puerta=2 destino=0
+462;2;RECIBIR;origen=0 reloj=461 solicitud=459 RECIBIDA
+463;2;ENVIAR;LATIDO puerta=2 destino=0
+466;2;RECIBIR;origen=0 reloj=465 solicitud=463 RECIBIDA
+467;2;ENVIAR;LATIDO puerta=2 destino=0
+470;2;RECIBIR;origen=0 reloj=469 solicitud=467 RECIBIDA
+471;2;ENVIAR;LATIDO puerta=2 destino=0
+474;2;RECIBIR;origen=0 reloj=473 solicitud=471 RECIBIDA
+475;2;ENVIAR;LATIDO puerta=2 destino=0
+478;2;RECIBIR;origen=0 reloj=477 solicitud=475 RECIBIDA
+479;2;ENVIAR;LATIDO puerta=2 destino=0
+482;2;RECIBIR;origen=0 reloj=481 solicitud=479 RECIBIDA
+483;2;ENVIAR;LATIDO puerta=2 destino=0
+486;2;RECIBIR;origen=0 reloj=485 solicitud=483 RECIBIDA
+487;2;ENVIAR;LATIDO puerta=2 destino=0
+490;2;RECIBIR;origen=0 reloj=489 solicitud=487 RECIBIDA
+491;2;ENVIAR;LATIDO puerta=2 destino=0
+494;2;RECIBIR;origen=0 reloj=493 solicitud=491 RECIBIDA
+495;2;ENVIAR;LATIDO puerta=2 destino=0
+498;2;RECIBIR;origen=0 reloj=497 solicitud=495 RECIBIDA
+499;2;ENVIAR;LATIDO puerta=2 destino=0
+502;2;RECIBIR;origen=0 reloj=501 solicitud=499 RECIBIDA
+503;2;ENVIAR;LATIDO puerta=2 destino=0
+506;2;RECIBIR;origen=0 reloj=505 solicitud=503 RECIBIDA
+507;2;ENVIAR;LATIDO puerta=2 destino=0
+510;2;RECIBIR;origen=0 reloj=509 solicitud=507 RECIBIDA
+511;2;ENVIAR;LATIDO puerta=2 destino=0
+514;2;RECIBIR;origen=0 reloj=513 solicitud=511 RECIBIDA
+515;2;ENVIAR;LATIDO puerta=2 destino=0
+518;2;RECIBIR;origen=0 reloj=517 solicitud=515 RECIBIDA
+519;2;ENVIAR;LATIDO puerta=2 destino=0
+522;2;RECIBIR;origen=0 reloj=521 solicitud=519 RECIBIDA
+523;2;ENVIAR;LATIDO puerta=2 destino=0
+526;2;RECIBIR;origen=0 reloj=525 solicitud=523 RECIBIDA
+527;2;ENVIAR;LATIDO puerta=2 destino=0
+530;2;RECIBIR;origen=0 reloj=529 solicitud=527 RECIBIDA
+531;2;ENVIAR;LATIDO puerta=2 destino=0
+534;2;RECIBIR;origen=0 reloj=533 solicitud=531 RECIBIDA
+535;2;ENVIAR;LATIDO puerta=2 destino=0
+538;2;RECIBIR;origen=0 reloj=537 solicitud=535 RECIBIDA
+539;2;ENVIAR;LATIDO puerta=2 destino=0
+542;2;RECIBIR;origen=0 reloj=541 solicitud=539 RECIBIDA
+543;2;ENVIAR;LATIDO puerta=2 destino=0
+546;2;RECIBIR;origen=0 reloj=545 solicitud=543 RECIBIDA
+547;2;ENVIAR;LATIDO puerta=2 destino=0
+550;2;RECIBIR;origen=0 reloj=549 solicitud=547 RECIBIDA
+551;2;ENVIAR;LATIDO puerta=2 destino=0
+554;2;RECIBIR;origen=0 reloj=553 solicitud=551 RECIBIDA
+555;2;ENVIAR;LATIDO puerta=2 destino=0
+558;2;RECIBIR;origen=0 reloj=557 solicitud=555 RECIBIDA
+559;2;ENVIAR;LATIDO puerta=2 destino=0
+562;2;RECIBIR;origen=0 reloj=561 solicitud=559 RECIBIDA
+563;2;ENVIAR;LATIDO puerta=2 destino=0
+566;2;RECIBIR;origen=0 reloj=565 solicitud=563 RECIBIDA
+567;2;ENVIAR;LATIDO puerta=2 destino=0
+570;2;RECIBIR;origen=0 reloj=569 solicitud=567 RECIBIDA
+571;2;ENVIAR;LATIDO puerta=2 destino=0
+574;2;RECIBIR;origen=0 reloj=573 solicitud=571 RECIBIDA
+575;2;ENVIAR;LATIDO puerta=2 destino=0
+578;2;RECIBIR;origen=0 reloj=577 solicitud=575 RECIBIDA
+579;2;ENVIAR;LATIDO puerta=2 destino=0
+582;2;RECIBIR;origen=0 reloj=581 solicitud=579 RECIBIDA
+583;2;ENVIAR;LATIDO puerta=2 destino=0
+586;2;RECIBIR;origen=0 reloj=585 solicitud=583 RECIBIDA
+587;2;ENVIAR;LATIDO puerta=2 destino=0
+590;2;RECIBIR;origen=0 reloj=589 solicitud=587 RECIBIDA
+591;2;ENVIAR;LATIDO puerta=2 destino=0
+594;2;RECIBIR;origen=0 reloj=593 solicitud=591 RECIBIDA
+595;2;ENVIAR;LATIDO puerta=2 destino=0
+598;2;RECIBIR;origen=0 reloj=597 solicitud=595 RECIBIDA
+599;2;ENVIAR;LATIDO puerta=2 destino=0
+602;2;RECIBIR;origen=0 reloj=601 solicitud=599 RECIBIDA
+603;2;ENVIAR;LATIDO puerta=2 destino=0
+606;2;RECIBIR;origen=0 reloj=605 solicitud=603 RECIBIDA
+607;2;ENVIAR;LATIDO puerta=2 destino=0
+610;2;RECIBIR;origen=0 reloj=609 solicitud=607 RECIBIDA
+611;2;ENVIAR;LATIDO puerta=2 destino=0
+614;2;RECIBIR;origen=0 reloj=613 solicitud=611 RECIBIDA
+615;2;ENVIAR;LATIDO puerta=2 destino=0
+618;2;RECIBIR;origen=0 reloj=617 solicitud=615 RECIBIDA
+619;2;ENVIAR;LATIDO puerta=2 destino=0
+622;2;RECIBIR;origen=0 reloj=621 solicitud=619 RECIBIDA
+623;2;ENVIAR;LATIDO puerta=2 destino=0
+626;2;RECIBIR;origen=0 reloj=625 solicitud=623 RECIBIDA
+627;2;ENVIAR;LATIDO puerta=2 destino=0
+630;2;RECIBIR;origen=0 reloj=629 solicitud=627 RECIBIDA
+631;2;ENVIAR;LATIDO puerta=2 destino=0
+634;2;RECIBIR;origen=0 reloj=633 solicitud=631 RECIBIDA
+635;2;ENVIAR;LATIDO puerta=2 destino=0
+638;2;RECIBIR;origen=0 reloj=637 solicitud=635 RECIBIDA
+639;2;ENVIAR;LATIDO puerta=2 destino=0
+642;2;RECIBIR;origen=0 reloj=641 solicitud=639 RECIBIDA
+643;2;ENVIAR;LATIDO puerta=2 destino=0
+646;2;RECIBIR;origen=0 reloj=645 solicitud=643 RECIBIDA
+647;2;ENVIAR;LATIDO puerta=2 destino=0
+650;2;RECIBIR;origen=0 reloj=649 solicitud=647 RECIBIDA
+651;2;ENVIAR;LATIDO puerta=2 destino=0
+654;2;RECIBIR;origen=0 reloj=653 solicitud=651 RECIBIDA
+655;2;ENVIAR;LATIDO puerta=2 destino=0
+658;2;RECIBIR;origen=0 reloj=657 solicitud=655 RECIBIDA
+659;2;ENVIAR;LATIDO puerta=2 destino=0
+662;2;RECIBIR;origen=0 reloj=661 solicitud=659 RECIBIDA
+663;2;ENVIAR;LATIDO puerta=2 destino=0
+666;2;RECIBIR;origen=0 reloj=665 solicitud=663 RECIBIDA
+667;2;ENVIAR;LATIDO puerta=2 destino=0
+670;2;RECIBIR;origen=0 reloj=669 solicitud=667 RECIBIDA
+671;2;ENVIAR;LATIDO puerta=2 destino=0
+674;2;RECIBIR;origen=0 reloj=673 solicitud=671 RECIBIDA
+675;2;ENVIAR;LATIDO puerta=2 destino=0
+678;2;RECIBIR;origen=0 reloj=677 solicitud=675 RECIBIDA
+679;2;ENVIAR;LATIDO puerta=2 destino=0
+682;2;RECIBIR;origen=0 reloj=681 solicitud=679 RECIBIDA
+683;2;ENVIAR;LATIDO puerta=2 destino=0
+686;2;RECIBIR;origen=0 reloj=685 solicitud=683 RECIBIDA
+687;2;ENVIAR;LATIDO puerta=2 destino=0
+690;2;RECIBIR;origen=0 reloj=689 solicitud=687 RECIBIDA
+691;2;ENVIAR;LATIDO puerta=2 destino=0
+694;2;RECIBIR;origen=0 reloj=693 solicitud=691 RECIBIDA
+695;2;ENVIAR;LATIDO puerta=2 destino=0
+698;2;RECIBIR;origen=0 reloj=697 solicitud=695 RECIBIDA
+699;2;ENVIAR;LATIDO puerta=2 destino=0
+702;2;RECIBIR;origen=0 reloj=701 solicitud=699 RECIBIDA
+703;2;ENVIAR;LATIDO puerta=2 destino=0
+706;2;RECIBIR;origen=0 reloj=705 solicitud=703 RECIBIDA
+707;2;ENVIAR;LATIDO puerta=2 destino=0
+710;2;RECIBIR;origen=0 reloj=709 solicitud=707 RECIBIDA
+711;2;ENVIAR;LATIDO puerta=2 destino=0
+714;2;RECIBIR;origen=0 reloj=713 solicitud=711 RECIBIDA
+715;2;ENVIAR;LATIDO puerta=2 destino=0
+718;2;RECIBIR;origen=0 reloj=717 solicitud=715 RECIBIDA
+719;2;ENVIAR;LATIDO puerta=2 destino=0
+722;2;RECIBIR;origen=0 reloj=721 solicitud=719 RECIBIDA
+723;2;ENVIAR;LATIDO puerta=2 destino=0
+726;2;RECIBIR;origen=0 reloj=725 solicitud=723 RECIBIDA
+727;2;ENVIAR;LATIDO puerta=2 destino=0
+730;2;RECIBIR;origen=0 reloj=729 solicitud=727 RECIBIDA
+731;2;ENVIAR;LATIDO puerta=2 destino=0
+734;2;RECIBIR;origen=0 reloj=733 solicitud=731 RECIBIDA
+735;2;ENVIAR;LATIDO puerta=2 destino=0
+738;2;RECIBIR;origen=0 reloj=737 solicitud=735 RECIBIDA
+739;2;ENVIAR;LATIDO puerta=2 destino=0
+742;2;RECIBIR;origen=0 reloj=741 solicitud=739 RECIBIDA
+743;2;ENVIAR;LATIDO puerta=2 destino=0
+746;2;RECIBIR;origen=0 reloj=745 solicitud=743 RECIBIDA
+747;2;ENVIAR;LATIDO puerta=2 destino=0
+750;2;RECIBIR;origen=0 reloj=749 solicitud=747 RECIBIDA
+751;2;ENVIAR;LATIDO puerta=2 destino=0
+754;2;RECIBIR;origen=0 reloj=753 solicitud=751 RECIBIDA
+755;2;ENVIAR;LATIDO puerta=2 destino=0
+758;2;RECIBIR;origen=0 reloj=757 solicitud=755 RECIBIDA
+759;2;ENVIAR;LATIDO puerta=2 destino=0
+762;2;RECIBIR;origen=0 reloj=761 solicitud=759 RECIBIDA
+763;2;ENVIAR;LATIDO puerta=2 destino=0
+766;2;RECIBIR;origen=0 reloj=765 solicitud=763 RECIBIDA
+767;2;ENVIAR;LATIDO puerta=2 destino=0
+770;2;RECIBIR;origen=0 reloj=769 solicitud=767 RECIBIDA
+771;2;ENVIAR;LATIDO puerta=2 destino=0
+774;2;RECIBIR;origen=0 reloj=773 solicitud=771 RECIBIDA
+775;2;ENVIAR;LATIDO puerta=2 destino=0
+778;2;RECIBIR;origen=0 reloj=777 solicitud=775 RECIBIDA
+779;2;ENVIAR;LATIDO puerta=2 destino=0
+782;2;RECIBIR;origen=0 reloj=781 solicitud=779 RECIBIDA
+783;2;ENVIAR;LATIDO puerta=2 destino=0
+786;2;RECIBIR;origen=0 reloj=785 solicitud=783 RECIBIDA
+787;2;ENVIAR;LATIDO puerta=2 destino=0
+790;2;RECIBIR;origen=0 reloj=789 solicitud=787 RECIBIDA
+791;2;ENVIAR;LATIDO puerta=2 destino=0
+794;2;RECIBIR;origen=0 reloj=793 solicitud=791 RECIBIDA
+795;2;ENVIAR;LATIDO puerta=2 destino=0
+798;2;RECIBIR;origen=0 reloj=797 solicitud=795 RECIBIDA
+799;2;ENVIAR;LATIDO puerta=2 destino=0
+802;2;RECIBIR;origen=0 reloj=801 solicitud=799 RECIBIDA
+803;2;ENVIAR;LATIDO puerta=2 destino=0
+806;2;RECIBIR;origen=0 reloj=805 solicitud=803 RECIBIDA
+807;2;ENVIAR;LATIDO puerta=2 destino=0
+810;2;RECIBIR;origen=0 reloj=809 solicitud=807 RECIBIDA
+811;2;ENVIAR;LATIDO puerta=2 destino=0
+814;2;RECIBIR;origen=0 reloj=813 solicitud=811 RECIBIDA
+815;2;ENVIAR;LATIDO puerta=2 destino=0
+818;2;RECIBIR;origen=0 reloj=817 solicitud=815 RECIBIDA
+819;2;ENVIAR;LATIDO puerta=2 destino=0
+822;2;RECIBIR;origen=0 reloj=821 solicitud=819 RECIBIDA
+823;2;ENVIAR;LATIDO puerta=2 destino=0
+826;2;RECIBIR;origen=0 reloj=825 solicitud=823 RECIBIDA
+827;2;ENVIAR;LATIDO puerta=2 destino=0
+830;2;RECIBIR;origen=0 reloj=829 solicitud=827 RECIBIDA
+831;2;ENVIAR;LATIDO puerta=2 destino=0
+834;2;RECIBIR;origen=0 reloj=833 solicitud=831 RECIBIDA
+835;2;ENVIAR;LATIDO puerta=2 destino=0
+838;2;RECIBIR;origen=0 reloj=837 solicitud=835 RECIBIDA
+839;2;ENVIAR;LATIDO puerta=2 destino=0
+842;2;RECIBIR;origen=0 reloj=841 solicitud=839 RECIBIDA
+843;2;ENVIAR;LATIDO puerta=2 destino=0
+846;2;RECIBIR;origen=0 reloj=845 solicitud=843 RECIBIDA
+847;2;ENVIAR;LATIDO puerta=2 destino=0
+850;2;RECIBIR;origen=0 reloj=849 solicitud=847 RECIBIDA
+851;2;ENVIAR;LATIDO puerta=2 destino=0
+854;2;RECIBIR;origen=0 reloj=853 solicitud=851 RECIBIDA
+855;2;ENVIAR;LATIDO puerta=2 destino=0
+858;2;RECIBIR;origen=0 reloj=857 solicitud=855 RECIBIDA
+859;2;ENVIAR;LATIDO puerta=2 destino=0
+862;2;RECIBIR;origen=0 reloj=861 solicitud=859 RECIBIDA
+863;2;ENVIAR;LATIDO puerta=2 destino=0
+866;2;RECIBIR;origen=0 reloj=865 solicitud=863 RECIBIDA
+867;2;ENVIAR;LATIDO puerta=2 destino=0
+870;2;RECIBIR;origen=0 reloj=869 solicitud=867 RECIBIDA
+871;2;ENVIAR;LATIDO puerta=2 destino=0
+874;2;RECIBIR;origen=0 reloj=873 solicitud=871 RECIBIDA
+875;2;ENVIAR;LATIDO puerta=2 destino=0
+878;2;RECIBIR;origen=0 reloj=877 solicitud=875 RECIBIDA
+879;2;ENVIAR;LATIDO puerta=2 destino=0
+882;2;RECIBIR;origen=0 reloj=881 solicitud=879 RECIBIDA
+883;2;ENVIAR;LATIDO puerta=2 destino=0
+886;2;RECIBIR;origen=0 reloj=885 solicitud=883 RECIBIDA
+887;2;ENVIAR;LATIDO puerta=2 destino=0
+890;2;RECIBIR;origen=0 reloj=889 solicitud=887 RECIBIDA
+891;2;ENVIAR;LATIDO puerta=2 destino=0
+894;2;RECIBIR;origen=0 reloj=893 solicitud=891 RECIBIDA
+895;2;ENVIAR;LATIDO puerta=2 destino=0
+898;2;RECIBIR;origen=0 reloj=897 solicitud=895 RECIBIDA
+899;2;ENVIAR;LATIDO puerta=2 destino=0
+902;2;RECIBIR;origen=0 reloj=901 solicitud=899 RECIBIDA
+903;2;ENVIAR;LATIDO puerta=2 destino=0
+906;2;RECIBIR;origen=0 reloj=905 solicitud=903 RECIBIDA
+907;2;ENVIAR;LATIDO puerta=2 destino=0
+910;2;RECIBIR;origen=0 reloj=909 solicitud=907 RECIBIDA
+911;2;ENVIAR;LATIDO puerta=2 destino=0
+914;2;RECIBIR;origen=0 reloj=913 solicitud=911 RECIBIDA
+915;2;ENVIAR;LATIDO puerta=2 destino=0
+918;2;RECIBIR;origen=0 reloj=917 solicitud=915 RECIBIDA
+919;2;ENVIAR;LATIDO puerta=2 destino=0
+922;2;RECIBIR;origen=0 reloj=921 solicitud=919 RECIBIDA
+923;2;ENVIAR;LATIDO puerta=2 destino=0
+926;2;RECIBIR;origen=0 reloj=925 solicitud=923 RECIBIDA
+927;2;ENVIAR;LATIDO puerta=2 destino=0
+930;2;RECIBIR;origen=0 reloj=929 solicitud=927 RECIBIDA
+931;2;ENVIAR;LATIDO puerta=2 destino=0
+934;2;RECIBIR;origen=0 reloj=933 solicitud=931 RECIBIDA
+935;2;ENVIAR;LATIDO puerta=2 destino=0
+938;2;RECIBIR;origen=0 reloj=937 solicitud=935 RECIBIDA
+939;2;ENVIAR;LATIDO puerta=2 destino=0
+942;2;RECIBIR;origen=0 reloj=941 solicitud=939 RECIBIDA
+943;2;ENVIAR;LATIDO puerta=2 destino=0
+946;2;RECIBIR;origen=0 reloj=945 solicitud=943 RECIBIDA
+947;2;ENVIAR;LATIDO puerta=2 destino=0
+950;2;RECIBIR;origen=0 reloj=949 solicitud=947 RECIBIDA
+951;2;ENVIAR;LATIDO puerta=2 destino=0
+954;2;RECIBIR;origen=0 reloj=953 solicitud=951 RECIBIDA
+955;2;ENVIAR;LATIDO puerta=2 destino=0
+958;2;RECIBIR;origen=0 reloj=957 solicitud=955 RECIBIDA
+959;2;ENVIAR;LATIDO puerta=2 destino=0
+962;2;RECIBIR;origen=0 reloj=961 solicitud=959 RECIBIDA
+963;2;ENVIAR;LATIDO puerta=2 destino=0
+966;2;RECIBIR;origen=0 reloj=965 solicitud=963 RECIBIDA
+967;2;ENVIAR;LATIDO puerta=2 destino=0
+970;2;RECIBIR;origen=0 reloj=969 solicitud=967 RECIBIDA
+971;2;ENVIAR;LATIDO puerta=2 destino=0
+974;2;RECIBIR;origen=0 reloj=973 solicitud=971 RECIBIDA
+975;2;ENVIAR;LATIDO puerta=2 destino=0
+978;2;RECIBIR;origen=0 reloj=977 solicitud=975 RECIBIDA
+979;2;ENVIAR;LATIDO puerta=2 destino=0
+982;2;RECIBIR;origen=0 reloj=981 solicitud=979 RECIBIDA
+983;2;ENVIAR;LATIDO puerta=2 destino=0
+986;2;RECIBIR;origen=0 reloj=985 solicitud=983 RECIBIDA
+987;2;ENVIAR;LATIDO puerta=2 destino=0
+990;2;RECIBIR;origen=0 reloj=989 solicitud=987 RECIBIDA
+991;2;ENVIAR;LATIDO puerta=2 destino=0
+994;2;RECIBIR;origen=0 reloj=993 solicitud=991 RECIBIDA
+995;2;ENVIAR;LATIDO puerta=2 destino=0
+998;2;RECIBIR;origen=0 reloj=997 solicitud=995 RECIBIDA
+999;2;ENVIAR;LATIDO puerta=2 destino=0
+1002;2;RECIBIR;origen=0 reloj=1001 solicitud=999 RECIBIDA
+1003;2;ENVIAR;LATIDO puerta=2 destino=0
+1006;2;RECIBIR;origen=0 reloj=1005 solicitud=1003 RECIBIDA
+1007;2;ENVIAR;LATIDO puerta=2 destino=0
+1010;2;RECIBIR;origen=0 reloj=1009 solicitud=1007 RECIBIDA
+1011;2;ENVIAR;LATIDO puerta=2 destino=0
+1014;2;RECIBIR;origen=0 reloj=1013 solicitud=1011 RECIBIDA
+1015;2;ENVIAR;LATIDO puerta=2 destino=0
+1018;2;RECIBIR;origen=0 reloj=1017 solicitud=1015 RECIBIDA
+1019;2;ENVIAR;LATIDO puerta=2 destino=0
+1022;2;RECIBIR;origen=0 reloj=1021 solicitud=1019 RECIBIDA
+1023;2;ENVIAR;LATIDO puerta=2 destino=0
+1026;2;RECIBIR;origen=0 reloj=1025 solicitud=1023 RECIBIDA
+1027;2;ENVIAR;LATIDO puerta=2 destino=0
+1030;2;RECIBIR;origen=0 reloj=1029 solicitud=1027 RECIBIDA
+1031;2;ENVIAR;LATIDO puerta=2 destino=0
+1034;2;RECIBIR;origen=0 reloj=1033 solicitud=1031 RECIBIDA
+1035;2;ENVIAR;LATIDO puerta=2 destino=0
+1038;2;RECIBIR;origen=0 reloj=1037 solicitud=1035 RECIBIDA
+1039;2;ENVIAR;LATIDO puerta=2 destino=0
+1042;2;RECIBIR;origen=0 reloj=1041 solicitud=1039 RECIBIDA
+1043;2;ENVIAR;LATIDO puerta=2 destino=0
+1046;2;RECIBIR;origen=0 reloj=1045 solicitud=1043 RECIBIDA
+1047;2;ENVIAR;LATIDO puerta=2 destino=0
+1050;2;RECIBIR;origen=0 reloj=1049 solicitud=1047 RECIBIDA
+1051;2;ENVIAR;LATIDO puerta=2 destino=0
+1054;2;RECIBIR;origen=0 reloj=1053 solicitud=1051 RECIBIDA
+1055;2;ENVIAR;LATIDO puerta=2 destino=0
+1058;2;RECIBIR;origen=0 reloj=1057 solicitud=1055 RECIBIDA
+1059;2;ENVIAR;LATIDO puerta=2 destino=0
+1062;2;RECIBIR;origen=0 reloj=1061 solicitud=1059 RECIBIDA
+1063;2;ENVIAR;LATIDO puerta=2 destino=0
+1066;2;RECIBIR;origen=0 reloj=1065 solicitud=1063 RECIBIDA
+1067;2;ENVIAR;LATIDO puerta=2 destino=0
+1070;2;RECIBIR;origen=0 reloj=1069 solicitud=1067 RECIBIDA
+1071;2;ENVIAR;LATIDO puerta=2 destino=0
+1074;2;RECIBIR;origen=0 reloj=1073 solicitud=1071 RECIBIDA
+1075;2;ENVIAR;LATIDO puerta=2 destino=0
+1078;2;RECIBIR;origen=0 reloj=1077 solicitud=1075 RECIBIDA
+1079;2;ENVIAR;LATIDO puerta=2 destino=0
+1082;2;RECIBIR;origen=0 reloj=1081 solicitud=1079 RECIBIDA
+1083;2;ENVIAR;LATIDO puerta=2 destino=0
+1086;2;RECIBIR;origen=0 reloj=1085 solicitud=1083 RECIBIDA
+1087;2;ENVIAR;LATIDO puerta=2 destino=0
+1090;2;RECIBIR;origen=0 reloj=1089 solicitud=1087 RECIBIDA
+1091;2;ENVIAR;LATIDO puerta=2 destino=0
+1094;2;RECIBIR;origen=0 reloj=1093 solicitud=1091 RECIBIDA
+1095;2;ENVIAR;LATIDO puerta=2 destino=0
+1098;2;RECIBIR;origen=0 reloj=1097 solicitud=1095 RECIBIDA
+1099;2;ENVIAR;LATIDO puerta=2 destino=0
+1102;2;RECIBIR;origen=0 reloj=1101 solicitud=1099 RECIBIDA
+1103;2;ENVIAR;LATIDO puerta=2 destino=0
+1106;2;RECIBIR;origen=0 reloj=1105 solicitud=1103 RECIBIDA
+1107;2;ENVIAR;LATIDO puerta=2 destino=0
+1110;2;RECIBIR;origen=0 reloj=1109 solicitud=1107 RECIBIDA
+1111;2;ENVIAR;LATIDO puerta=2 destino=0
+1114;2;RECIBIR;origen=0 reloj=1113 solicitud=1111 RECIBIDA
+1115;2;ENVIAR;LATIDO puerta=2 destino=0
+1118;2;RECIBIR;origen=0 reloj=1117 solicitud=1115 RECIBIDA
+1119;2;ENVIAR;LATIDO puerta=2 destino=0
+1122;2;RECIBIR;origen=0 reloj=1121 solicitud=1119 RECIBIDA
+1123;2;ENVIAR;LATIDO puerta=2 destino=0
+1126;2;RECIBIR;origen=0 reloj=1125 solicitud=1123 RECIBIDA
+1127;2;ENVIAR;LATIDO puerta=2 destino=0
+1130;2;RECIBIR;origen=0 reloj=1129 solicitud=1127 RECIBIDA
+1131;2;ENVIAR;LATIDO puerta=2 destino=0
+1134;2;RECIBIR;origen=0 reloj=1133 solicitud=1131 RECIBIDA
+1135;2;ENVIAR;LATIDO puerta=2 destino=0
+1138;2;RECIBIR;origen=0 reloj=1137 solicitud=1135 RECIBIDA
+1139;2;ENVIAR;LATIDO puerta=2 destino=0
+1142;2;RECIBIR;origen=0 reloj=1141 solicitud=1139 RECIBIDA
+1143;2;ENVIAR;LATIDO puerta=2 destino=0
+1146;2;RECIBIR;origen=0 reloj=1145 solicitud=1143 RECIBIDA
+1147;2;ENVIAR;LATIDO puerta=2 destino=0
+1150;2;RECIBIR;origen=0 reloj=1149 solicitud=1147 RECIBIDA
+1151;2;ENVIAR;LATIDO puerta=2 destino=0
+1154;2;RECIBIR;origen=0 reloj=1153 solicitud=1151 RECIBIDA
+1155;2;ENVIAR;LATIDO puerta=2 destino=0
+1158;2;RECIBIR;origen=0 reloj=1157 solicitud=1155 RECIBIDA
+1159;2;ENVIAR;LATIDO puerta=2 destino=0
+1162;2;RECIBIR;origen=0 reloj=1161 solicitud=1159 RECIBIDA
+1163;2;ENVIAR;LATIDO puerta=2 destino=0
+1166;2;RECIBIR;origen=0 reloj=1165 solicitud=1163 RECIBIDA
+1167;2;ENVIAR;LATIDO puerta=2 destino=0
+1170;2;RECIBIR;origen=0 reloj=1169 solicitud=1167 RECIBIDA
+1171;2;ENVIAR;LATIDO puerta=2 destino=0
+1174;2;RECIBIR;origen=0 reloj=1173 solicitud=1171 RECIBIDA
+1175;2;ENVIAR;LATIDO puerta=2 destino=0
+1178;2;RECIBIR;origen=0 reloj=1177 solicitud=1175 RECIBIDA
+1179;2;ENVIAR;LATIDO puerta=2 destino=0
+1182;2;RECIBIR;origen=0 reloj=1181 solicitud=1179 RECIBIDA
+1183;2;ENVIAR;LATIDO puerta=2 destino=0
+1186;2;RECIBIR;origen=0 reloj=1185 solicitud=1183 RECIBIDA
+1187;2;ENVIAR;LATIDO puerta=2 destino=0
+1190;2;RECIBIR;origen=0 reloj=1189 solicitud=1187 RECIBIDA
+1191;2;ENVIAR;LATIDO puerta=2 destino=0
+1194;2;RECIBIR;origen=0 reloj=1193 solicitud=1191 RECIBIDA
+1195;2;ENVIAR;LATIDO puerta=2 destino=0
+1198;2;RECIBIR;origen=0 reloj=1197 solicitud=1195 RECIBIDA
+1199;2;ENVIAR;LATIDO puerta=2 destino=0
+1202;2;RECIBIR;origen=0 reloj=1201 solicitud=1199 RECIBIDA
+1203;2;ENVIAR;LATIDO puerta=2 destino=0
+1206;2;RECIBIR;origen=0 reloj=1205 solicitud=1203 RECIBIDA
+1207;2;ENVIAR;LATIDO puerta=2 destino=0
+1210;2;RECIBIR;origen=0 reloj=1209 solicitud=1207 RECIBIDA
+1211;2;ENVIAR;LATIDO puerta=2 destino=0
+1214;2;RECIBIR;origen=0 reloj=1213 solicitud=1211 RECIBIDA
+1215;2;ENVIAR;LATIDO puerta=2 destino=0
+1218;2;RECIBIR;origen=0 reloj=1217 solicitud=1215 RECIBIDA
+1219;2;ENVIAR;LATIDO puerta=2 destino=0
+1222;2;RECIBIR;origen=0 reloj=1221 solicitud=1219 RECIBIDA
+1223;2;ENVIAR;LATIDO puerta=2 destino=0
+1226;2;RECIBIR;origen=0 reloj=1225 solicitud=1223 RECIBIDA
+1227;2;ENVIAR;LATIDO puerta=2 destino=0
+1230;2;RECIBIR;origen=0 reloj=1229 solicitud=1227 RECIBIDA
+1231;2;ENVIAR;LATIDO puerta=2 destino=0
+1234;2;RECIBIR;origen=0 reloj=1233 solicitud=1231 RECIBIDA
+1235;2;ENVIAR;LATIDO puerta=2 destino=0
+1238;2;RECIBIR;origen=0 reloj=1237 solicitud=1235 RECIBIDA
+1239;2;ENVIAR;LATIDO puerta=2 destino=0
+1242;2;RECIBIR;origen=0 reloj=1241 solicitud=1239 RECIBIDA
+1243;2;ENVIAR;LATIDO puerta=2 destino=0
+1246;2;RECIBIR;origen=0 reloj=1245 solicitud=1243 RECIBIDA
+1247;2;ENVIAR;LATIDO puerta=2 destino=0
+1250;2;RECIBIR;origen=0 reloj=1249 solicitud=1247 RECIBIDA
+1251;2;ENVIAR;LATIDO puerta=2 destino=0
+1254;2;RECIBIR;origen=0 reloj=1253 solicitud=1251 RECIBIDA
+1255;2;ENVIAR;LATIDO puerta=2 destino=0
+1258;2;RECIBIR;origen=0 reloj=1257 solicitud=1255 RECIBIDA
+1259;2;ENVIAR;LATIDO puerta=2 destino=0
+1262;2;RECIBIR;origen=0 reloj=1261 solicitud=1259 RECIBIDA
+1263;2;ENVIAR;LATIDO puerta=2 destino=0
+1266;2;RECIBIR;origen=0 reloj=1265 solicitud=1263 RECIBIDA
+1267;2;ENVIAR;LATIDO puerta=2 destino=0
+1270;2;RECIBIR;origen=0 reloj=1269 solicitud=1267 RECIBIDA
+1271;2;ENVIAR;LATIDO puerta=2 destino=0
+1274;2;RECIBIR;origen=0 reloj=1273 solicitud=1271 RECIBIDA
+1275;2;ENVIAR;LATIDO puerta=2 destino=0
+1278;2;RECIBIR;origen=0 reloj=1277 solicitud=1275 RECIBIDA
+1279;2;ENVIAR;LATIDO puerta=2 destino=0
+1282;2;RECIBIR;origen=0 reloj=1281 solicitud=1279 RECIBIDA
+1283;2;ENVIAR;LATIDO puerta=2 destino=0
+1286;2;RECIBIR;origen=0 reloj=1285 solicitud=1283 RECIBIDA
+1287;2;ENVIAR;LATIDO puerta=2 destino=0
+1290;2;RECIBIR;origen=0 reloj=1289 solicitud=1287 RECIBIDA
+1291;2;ENVIAR;LATIDO puerta=2 destino=0
+1294;2;RECIBIR;origen=0 reloj=1293 solicitud=1291 RECIBIDA
+1295;2;ENVIAR;LATIDO puerta=2 destino=0
+1298;2;RECIBIR;origen=0 reloj=1297 solicitud=1295 RECIBIDA
+1299;2;ENVIAR;LATIDO puerta=2 destino=0
+1302;2;RECIBIR;origen=0 reloj=1301 solicitud=1299 RECIBIDA
+1303;2;ENVIAR;LATIDO puerta=2 destino=0
+1306;2;RECIBIR;origen=0 reloj=1305 solicitud=1303 RECIBIDA
+1307;2;ENVIAR;LATIDO puerta=2 destino=0
+1310;2;RECIBIR;origen=0 reloj=1309 solicitud=1307 RECIBIDA
+1311;2;ENVIAR;LATIDO puerta=2 destino=0
+1314;2;RECIBIR;origen=0 reloj=1313 solicitud=1311 RECIBIDA
+1315;2;ENVIAR;LATIDO puerta=2 destino=0
+1318;2;RECIBIR;origen=0 reloj=1317 solicitud=1315 RECIBIDA
+1319;2;ENVIAR;LATIDO puerta=2 destino=0
+1322;2;RECIBIR;origen=0 reloj=1321 solicitud=1319 RECIBIDA
+1323;2;ENVIAR;LATIDO puerta=2 destino=0
+1326;2;RECIBIR;origen=0 reloj=1325 solicitud=1323 RECIBIDA
+1327;2;ENVIAR;LATIDO puerta=2 destino=0
+1330;2;RECIBIR;origen=0 reloj=1329 solicitud=1327 RECIBIDA
+1331;2;ENVIAR;LATIDO puerta=2 destino=0
+1334;2;RECIBIR;origen=0 reloj=1333 solicitud=1331 RECIBIDA
+1335;2;ENVIAR;LATIDO puerta=2 destino=0
+1338;2;RECIBIR;origen=0 reloj=1337 solicitud=1335 RECIBIDA
+1339;2;ENVIAR;LATIDO puerta=2 destino=0
+1342;2;RECIBIR;origen=0 reloj=1341 solicitud=1339 RECIBIDA
+1343;2;ENVIAR;LATIDO puerta=2 destino=0
+1346;2;RECIBIR;origen=0 reloj=1345 solicitud=1343 RECIBIDA
+1347;2;ENVIAR;LATIDO puerta=2 destino=0
+1350;2;RECIBIR;origen=0 reloj=1349 solicitud=1347 RECIBIDA
+1351;2;ENVIAR;LATIDO puerta=2 destino=0
+1354;2;RECIBIR;origen=0 reloj=1353 solicitud=1351 RECIBIDA
+1355;2;ENVIAR;LATIDO puerta=2 destino=0
+1358;2;RECIBIR;origen=0 reloj=1357 solicitud=1355 RECIBIDA
+1359;2;ENVIAR;LATIDO puerta=2 destino=0
+1362;2;RECIBIR;origen=0 reloj=1361 solicitud=1359 RECIBIDA
+1363;2;ENVIAR;LATIDO puerta=2 destino=0
+1366;2;RECIBIR;origen=0 reloj=1365 solicitud=1363 RECIBIDA
+1367;2;ENVIAR;LATIDO puerta=2 destino=0
+1370;2;RECIBIR;origen=0 reloj=1369 solicitud=1367 RECIBIDA
+1371;2;ENVIAR;LATIDO puerta=2 destino=0
+1374;2;RECIBIR;origen=0 reloj=1373 solicitud=1371 RECIBIDA
+1375;2;ENVIAR;LATIDO puerta=2 destino=0
+1378;2;RECIBIR;origen=0 reloj=1377 solicitud=1375 RECIBIDA
+1379;2;ENVIAR;LATIDO puerta=2 destino=0
+1382;2;RECIBIR;origen=0 reloj=1381 solicitud=1379 RECIBIDA
+1383;2;ENVIAR;LATIDO puerta=2 destino=0
+1386;2;RECIBIR;origen=0 reloj=1385 solicitud=1383 RECIBIDA
+1387;2;ENVIAR;LATIDO puerta=2 destino=0
+1390;2;RECIBIR;origen=0 reloj=1389 solicitud=1387 RECIBIDA
+1391;2;ENVIAR;LATIDO puerta=2 destino=0
+1394;2;RECIBIR;origen=0 reloj=1393 solicitud=1391 RECIBIDA
+1395;2;ENVIAR;LATIDO puerta=2 destino=0
+1398;2;RECIBIR;origen=0 reloj=1397 solicitud=1395 RECIBIDA
+1399;2;ENVIAR;LATIDO puerta=2 destino=0
+1402;2;RECIBIR;origen=0 reloj=1401 solicitud=1399 RECIBIDA
+1403;2;ENVIAR;LATIDO puerta=2 destino=0
+1406;2;RECIBIR;origen=0 reloj=1405 solicitud=1403 RECIBIDA
+1407;2;ENVIAR;LATIDO puerta=2 destino=0
+1410;2;RECIBIR;origen=0 reloj=1409 solicitud=1407 RECIBIDA
+1411;2;ENVIAR;LATIDO puerta=2 destino=0
+1414;2;RECIBIR;origen=0 reloj=1413 solicitud=1411 RECIBIDA
+1415;2;ENVIAR;LATIDO puerta=2 destino=0
+1418;2;RECIBIR;origen=0 reloj=1417 solicitud=1415 RECIBIDA
+1419;2;ENVIAR;LATIDO puerta=2 destino=0
+1422;2;RECIBIR;origen=0 reloj=1421 solicitud=1419 RECIBIDA
+1423;2;ENVIAR;LATIDO puerta=2 destino=0
+1426;2;RECIBIR;origen=0 reloj=1425 solicitud=1423 RECIBIDA
+1427;2;ENVIAR;LATIDO puerta=2 destino=0
+1430;2;RECIBIR;origen=0 reloj=1429 solicitud=1427 RECIBIDA
+1431;2;ENVIAR;LATIDO puerta=2 destino=0
+1434;2;RECIBIR;origen=0 reloj=1433 solicitud=1431 RECIBIDA
+1435;2;ENVIAR;LATIDO puerta=2 destino=0
+1438;2;RECIBIR;origen=0 reloj=1437 solicitud=1435 RECIBIDA
+1439;2;ENVIAR;LATIDO puerta=2 destino=0
+1442;2;RECIBIR;origen=0 reloj=1441 solicitud=1439 RECIBIDA
+1443;2;ENVIAR;LATIDO puerta=2 destino=0
+1446;2;RECIBIR;origen=0 reloj=1445 solicitud=1443 RECIBIDA
+1447;2;ENVIAR;LATIDO puerta=2 destino=0
+1450;2;RECIBIR;origen=0 reloj=1449 solicitud=1447 RECIBIDA
+1451;2;ENVIAR;LATIDO puerta=2 destino=0
+1454;2;RECIBIR;origen=0 reloj=1453 solicitud=1451 RECIBIDA
+1455;2;ENVIAR;LATIDO puerta=2 destino=0
+1458;2;RECIBIR;origen=0 reloj=1457 solicitud=1455 RECIBIDA
+1459;2;ENVIAR;LATIDO puerta=2 destino=0
+1462;2;RECIBIR;origen=0 reloj=1461 solicitud=1459 RECIBIDA
+1463;2;ENVIAR;LATIDO puerta=2 destino=0
+1466;2;RECIBIR;origen=0 reloj=1465 solicitud=1463 RECIBIDA
+1467;2;ENVIAR;LATIDO puerta=2 destino=0
+1470;2;RECIBIR;origen=0 reloj=1469 solicitud=1467 RECIBIDA
+1471;2;ENVIAR;LATIDO puerta=2 destino=0
+1474;2;RECIBIR;origen=0 reloj=1473 solicitud=1471 RECIBIDA
+1475;2;ENVIAR;LATIDO puerta=2 destino=0
+1478;2;RECIBIR;origen=0 reloj=1477 solicitud=1475 RECIBIDA
+1479;2;ENVIAR;LATIDO puerta=2 destino=0
+1482;2;RECIBIR;origen=0 reloj=1481 solicitud=1479 RECIBIDA
+1483;2;ENVIAR;LATIDO puerta=2 destino=0
+1486;2;RECIBIR;origen=0 reloj=1485 solicitud=1483 RECIBIDA
+1487;2;ENVIAR;LATIDO puerta=2 destino=0
+1490;2;RECIBIR;origen=0 reloj=1489 solicitud=1487 RECIBIDA
+1491;2;ENVIAR;LATIDO puerta=2 destino=0
+1494;2;RECIBIR;origen=0 reloj=1493 solicitud=1491 RECIBIDA
+1495;2;ENVIAR;LATIDO puerta=2 destino=0
+1498;2;RECIBIR;origen=0 reloj=1497 solicitud=1495 RECIBIDA
+1499;2;ENVIAR;LATIDO puerta=2 destino=0
+1502;2;RECIBIR;origen=0 reloj=1501 solicitud=1499 RECIBIDA
+1503;2;ENVIAR;LATIDO puerta=2 destino=0
+1506;2;RECIBIR;origen=0 reloj=1505 solicitud=1503 RECIBIDA
+1507;2;SIN_RESPUESTA;LATIDO
+1508;2;INICIO;Sur
+1509;2;ENVIAR;LATIDO puerta=2 destino=0
+1513;2;RECIBIR;origen=0 reloj=1512 solicitud=1509 RECIBIDA
+1514;2;ENVIAR;LATIDO puerta=2 destino=0
+1517;2;RECIBIR;origen=0 reloj=1516 solicitud=1514 RECIBIDA
+1518;2;ENVIAR;LATIDO puerta=2 destino=0
+1521;2;RECIBIR;origen=0 reloj=1520 solicitud=1518 RECIBIDA
+1522;2;ENVIAR;LATIDO puerta=2 destino=0
+1526;2;RECIBIR;origen=0 reloj=1525 solicitud=1522 RECIBIDA
+1527;2;ENVIAR;LATIDO puerta=2 destino=0
+1530;2;RECIBIR;origen=0 reloj=1529 solicitud=1527 RECIBIDA
+1531;2;ENVIAR;LATIDO puerta=2 destino=0
+1534;2;RECIBIR;origen=0 reloj=1533 solicitud=1531 RECIBIDA
+1535;2;ENVIAR;LATIDO puerta=2 destino=0
+1538;2;RECIBIR;origen=0 reloj=1537 solicitud=1535 RECIBIDA
+1539;2;ENVIAR;LATIDO puerta=2 destino=0
+1542;2;RECIBIR;origen=0 reloj=1541 solicitud=1539 RECIBIDA
+1543;2;ENVIAR;LATIDO puerta=2 destino=0
+1546;2;RECIBIR;origen=0 reloj=1545 solicitud=1543 RECIBIDA
+1547;2;ENVIAR;LATIDO puerta=2 destino=0
+1550;2;RECIBIR;origen=0 reloj=1549 solicitud=1547 RECIBIDA
+1551;2;ENVIAR;LATIDO puerta=2 destino=0
+1554;2;RECIBIR;origen=0 reloj=1553 solicitud=1551 RECIBIDA
+1555;2;ENVIAR;LATIDO puerta=2 destino=0
+1558;2;RECIBIR;origen=0 reloj=1557 solicitud=1555 RECIBIDA
+1559;2;ENVIAR;LATIDO puerta=2 destino=0
+1562;2;RECIBIR;origen=0 reloj=1561 solicitud=1559 RECIBIDA
+1563;2;ENVIAR;LATIDO puerta=2 destino=0
+1569;2;RECIBIR;origen=0 reloj=1568 solicitud=1563 RECIBIDA
+1570;2;ENVIAR;LATIDO puerta=2 destino=0
+1575;2;RECIBIR;origen=0 reloj=1574 solicitud=1570 RECIBIDA
+1576;2;ENVIAR;LATIDO puerta=2 destino=0
+1581;2;RECIBIR;origen=0 reloj=1580 solicitud=1576 RECIBIDA
+1582;2;ENVIAR;LATIDO puerta=2 destino=0
+1587;2;RECIBIR;origen=0 reloj=1586 solicitud=1582 RECIBIDA
+1588;2;ENVIAR;LATIDO puerta=2 destino=0
+1593;2;RECIBIR;origen=0 reloj=1592 solicitud=1588 RECIBIDA
+1594;2;ENVIAR;LATIDO puerta=2 destino=0
+1599;2;RECIBIR;origen=0 reloj=1598 solicitud=1594 RECIBIDA
+1600;2;ENVIAR;LATIDO puerta=2 destino=0
+1605;2;RECIBIR;origen=0 reloj=1604 solicitud=1600 RECIBIDA
+1606;2;ENVIAR;LATIDO puerta=2 destino=0
+1611;2;RECIBIR;origen=0 reloj=1610 solicitud=1606 RECIBIDA
+1612;2;ENVIAR;LATIDO puerta=2 destino=0
+1617;2;RECIBIR;origen=0 reloj=1616 solicitud=1612 RECIBIDA
+1618;2;ENVIAR;LATIDO puerta=2 destino=0
+1623;2;RECIBIR;origen=0 reloj=1622 solicitud=1618 RECIBIDA
+1624;2;ENVIAR;LATIDO puerta=2 destino=0
+1629;2;RECIBIR;origen=0 reloj=1628 solicitud=1624 RECIBIDA
+1630;2;ENVIAR;LATIDO puerta=2 destino=0
+1635;2;RECIBIR;origen=0 reloj=1634 solicitud=1630 RECIBIDA
+1636;2;ENVIAR;LATIDO puerta=2 destino=0
+1641;2;RECIBIR;origen=0 reloj=1640 solicitud=1636 RECIBIDA
+1642;2;ENVIAR;LATIDO puerta=2 destino=0
+1647;2;RECIBIR;origen=0 reloj=1646 solicitud=1642 RECIBIDA
+1648;2;ENVIAR;LATIDO puerta=2 destino=0
+1653;2;RECIBIR;origen=0 reloj=1652 solicitud=1648 RECIBIDA
+1654;2;ENVIAR;LATIDO puerta=2 destino=0
+1659;2;RECIBIR;origen=0 reloj=1658 solicitud=1654 RECIBIDA
+1660;2;ENVIAR;LATIDO puerta=2 destino=0
+1665;2;RECIBIR;origen=0 reloj=1664 solicitud=1660 RECIBIDA
+1666;2;ENVIAR;LATIDO puerta=2 destino=0
+1671;2;RECIBIR;origen=0 reloj=1670 solicitud=1666 RECIBIDA
+1672;2;ENVIAR;LATIDO puerta=2 destino=0
+1677;2;RECIBIR;origen=0 reloj=1676 solicitud=1672 RECIBIDA
+1678;2;ENVIAR;LATIDO puerta=2 destino=0
+1683;2;RECIBIR;origen=0 reloj=1682 solicitud=1678 RECIBIDA
+1684;2;ENVIAR;LATIDO puerta=2 destino=0
+1689;2;RECIBIR;origen=0 reloj=1688 solicitud=1684 RECIBIDA
+1690;2;ENVIAR;LATIDO puerta=2 destino=0
+1695;2;RECIBIR;origen=0 reloj=1694 solicitud=1690 RECIBIDA
+1696;2;ENVIAR;LATIDO puerta=2 destino=0
+1701;2;RECIBIR;origen=0 reloj=1700 solicitud=1696 RECIBIDA
+1702;2;ENVIAR;LATIDO puerta=2 destino=0
+1707;2;RECIBIR;origen=0 reloj=1706 solicitud=1702 RECIBIDA
+1708;2;ENVIAR;LATIDO puerta=2 destino=0
+1713;2;RECIBIR;origen=0 reloj=1712 solicitud=1708 RECIBIDA
+1714;2;ENVIAR;LATIDO puerta=2 destino=0
+1719;2;RECIBIR;origen=0 reloj=1718 solicitud=1714 RECIBIDA
+1720;2;ENVIAR;LATIDO puerta=2 destino=0
+1725;2;RECIBIR;origen=0 reloj=1724 solicitud=1720 RECIBIDA
+1726;2;ENVIAR;SALIR puerta=2 destino=0
+1729;2;RECIBIR;origen=0 reloj=1728 solicitud=1726 RECHAZADA nadie dentro
+1730;2;ENVIAR;LATIDO puerta=2 destino=0
+1733;2;RECIBIR;origen=0 reloj=1732 solicitud=1730 RECIBIDA
+1734;2;ENVIAR;LATIDO puerta=2 destino=0
+1739;2;RECIBIR;origen=0 reloj=1738 solicitud=1734 RECIBIDA
+1740;2;ENVIAR;LATIDO puerta=2 destino=0
+1745;2;RECIBIR;origen=0 reloj=1744 solicitud=1740 RECIBIDA
+1746;2;ENVIAR;LATIDO puerta=2 destino=0
+1751;2;RECIBIR;origen=0 reloj=1750 solicitud=1746 RECIBIDA
+1752;2;ENVIAR;LATIDO puerta=2 destino=0
+1757;2;RECIBIR;origen=0 reloj=1756 solicitud=1752 RECIBIDA
+1758;2;ENVIAR;LATIDO puerta=2 destino=0
+1763;2;RECIBIR;origen=0 reloj=1762 solicitud=1758 RECIBIDA
+1764;2;ENVIAR;LATIDO puerta=2 destino=0
+1769;2;RECIBIR;origen=0 reloj=1768 solicitud=1764 RECIBIDA
+1770;2;ENVIAR;LATIDO puerta=2 destino=0
+1775;2;RECIBIR;origen=0 reloj=1774 solicitud=1770 RECIBIDA
+1776;2;ENVIAR;LATIDO puerta=2 destino=0
+1781;2;RECIBIR;origen=0 reloj=1780 solicitud=1776 RECIBIDA
+1782;2;ENVIAR;LATIDO puerta=2 destino=0
+1787;2;RECIBIR;origen=0 reloj=1786 solicitud=1782 RECIBIDA
+1788;2;ENVIAR;LATIDO puerta=2 destino=0
+1793;2;RECIBIR;origen=0 reloj=1792 solicitud=1788 RECIBIDA
+1794;2;ENVIAR;LATIDO puerta=2 destino=0
+1803;2;RECIBIR;origen=0 reloj=1802 solicitud=1794 RECIBIDA
+1804;2;ENVIAR;LATIDO puerta=2 destino=0
+1809;2;RECIBIR;origen=0 reloj=1808 solicitud=1804 RECIBIDA
+1810;2;ENVIAR;LATIDO puerta=2 destino=0
+1815;2;RECIBIR;origen=0 reloj=1814 solicitud=1810 RECIBIDA
+1816;2;ENVIAR;LATIDO puerta=2 destino=0
+1821;2;RECIBIR;origen=0 reloj=1820 solicitud=1816 RECIBIDA
+1822;2;ENVIAR;LATIDO puerta=2 destino=0
+1827;2;RECIBIR;origen=0 reloj=1826 solicitud=1822 RECIBIDA
+1828;2;ENVIAR;LATIDO puerta=2 destino=0
+1833;2;RECIBIR;origen=0 reloj=1832 solicitud=1828 RECIBIDA
+1834;2;ENVIAR;LATIDO puerta=2 destino=0
+1839;2;RECIBIR;origen=0 reloj=1838 solicitud=1834 RECIBIDA
+1840;2;ENVIAR;LATIDO puerta=2 destino=0
+1845;2;RECIBIR;origen=0 reloj=1844 solicitud=1840 RECIBIDA
+1846;2;ENVIAR;ENTRAR puerta=2 destino=0
+1849;2;RECIBIR;origen=0 reloj=1848 solicitud=1846 PERMITIDA 2 10
+1850;2;ENVIAR;LATIDO puerta=2 destino=0
+1853;2;RECIBIR;origen=0 reloj=1852 solicitud=1850 RECIBIDA
+1854;2;ENVIAR;LATIDO puerta=2 destino=0
+1859;2;RECIBIR;origen=0 reloj=1858 solicitud=1854 RECIBIDA
+1860;2;ENVIAR;LATIDO puerta=2 destino=0
+1865;2;RECIBIR;origen=0 reloj=1864 solicitud=1860 RECIBIDA
+1866;2;ENVIAR;LATIDO puerta=2 destino=0
+1871;2;RECIBIR;origen=0 reloj=1870 solicitud=1866 RECIBIDA
+1872;2;ENVIAR;LATIDO puerta=2 destino=0
+1877;2;RECIBIR;origen=0 reloj=1876 solicitud=1872 RECIBIDA
+1878;2;ENVIAR;LATIDO puerta=2 destino=0
+1887;2;RECIBIR;origen=0 reloj=1886 solicitud=1878 RECIBIDA
+1888;2;ENVIAR;LATIDO puerta=2 destino=0
+1893;2;RECIBIR;origen=0 reloj=1892 solicitud=1888 RECIBIDA
+1894;2;ENVIAR;LATIDO puerta=2 destino=0
+1899;2;RECIBIR;origen=0 reloj=1898 solicitud=1894 RECIBIDA
+1900;2;ENVIAR;LATIDO puerta=2 destino=0
+1905;2;RECIBIR;origen=0 reloj=1904 solicitud=1900 RECIBIDA
+1906;2;ENVIAR;SALIR puerta=2 destino=0
+1909;2;RECIBIR;origen=0 reloj=1908 solicitud=1906 PERMITIDA 2 10
+1910;2;ENVIAR;LATIDO puerta=2 destino=0
+1913;2;RECIBIR;origen=0 reloj=1912 solicitud=1910 RECIBIDA
+1914;2;ENVIAR;LATIDO puerta=2 destino=0
+1919;2;RECIBIR;origen=0 reloj=1918 solicitud=1914 RECIBIDA
+1920;2;ENVIAR;LATIDO puerta=2 destino=0
+1925;2;RECIBIR;origen=0 reloj=1924 solicitud=1920 RECIBIDA
+1926;2;ENVIAR;LATIDO puerta=2 destino=0
+1931;2;RECIBIR;origen=0 reloj=1930 solicitud=1926 RECIBIDA
+1932;2;ENVIAR;LATIDO puerta=2 destino=0
+1937;2;RECIBIR;origen=0 reloj=1936 solicitud=1932 RECIBIDA
+1938;2;ENVIAR;LATIDO puerta=2 destino=0
+1947;2;RECIBIR;origen=0 reloj=1946 solicitud=1938 RECIBIDA
+1948;2;ENVIAR;LATIDO puerta=2 destino=0
+1953;2;RECIBIR;origen=0 reloj=1952 solicitud=1948 RECIBIDA
+1954;2;ENVIAR;LATIDO puerta=2 destino=0
+1959;2;RECIBIR;origen=0 reloj=1958 solicitud=1954 RECIBIDA
+1960;2;ENVIAR;LATIDO puerta=2 destino=0
+1965;2;RECIBIR;origen=0 reloj=1964 solicitud=1960 RECIBIDA
+1966;2;ENVIAR;LATIDO puerta=2 destino=0
+1971;2;RECIBIR;origen=0 reloj=1970 solicitud=1966 RECIBIDA
+1972;2;ENVIAR;ESTADO puerta=2 destino=0
+1975;2;RECIBIR;origen=0 reloj=1974 solicitud=1972 PERMITIDA 2 10 P1=ACTIVA, P2=ACTIVA, P3=ACTIVA
+1976;2;ENVIAR;LATIDO puerta=2 destino=0
+1979;2;RECIBIR;origen=0 reloj=1978 solicitud=1976 RECIBIDA
+1980;2;ENVIAR;LATIDO puerta=2 destino=0
+1985;2;RECIBIR;origen=0 reloj=1984 solicitud=1980 RECIBIDA
+1986;2;ENVIAR;LATIDO puerta=2 destino=0
+1991;2;RECIBIR;origen=0 reloj=1990 solicitud=1986 RECIBIDA
+1992;2;ENVIAR;LATIDO puerta=2 destino=0
+2001;2;RECIBIR;origen=0 reloj=2000 solicitud=1992 RECIBIDA
+2002;2;ENVIAR;LATIDO puerta=2 destino=0
+2007;2;RECIBIR;origen=0 reloj=2006 solicitud=2002 RECIBIDA
+2008;2;ENVIAR;LATIDO puerta=2 destino=0
+2013;2;RECIBIR;origen=0 reloj=2012 solicitud=2008 RECIBIDA
+2014;2;ENVIAR;LATIDO puerta=2 destino=0
+2019;2;RECIBIR;origen=0 reloj=2018 solicitud=2014 RECIBIDA
+2020;2;ENVIAR;LATIDO puerta=2 destino=0
+2025;2;RECIBIR;origen=0 reloj=2024 solicitud=2020 RECIBIDA
+2026;2;ENVIAR;LATIDO puerta=2 destino=0
+2031;2;RECIBIR;origen=0 reloj=2030 solicitud=2026 RECIBIDA
+2032;2;ENVIAR;LATIDO puerta=2 destino=0
+2037;2;RECIBIR;origen=0 reloj=2036 solicitud=2032 RECIBIDA
+2038;2;ENVIAR;LATIDO puerta=2 destino=0
+2043;2;RECIBIR;origen=0 reloj=2042 solicitud=2038 RECIBIDA
+2044;2;ENVIAR;LATIDO puerta=2 destino=0
+2049;2;RECIBIR;origen=0 reloj=2048 solicitud=2044 RECIBIDA
+2050;2;ENVIAR;LATIDO puerta=2 destino=0
+2055;2;RECIBIR;origen=0 reloj=2054 solicitud=2050 RECIBIDA
+2056;2;ENVIAR;LATIDO puerta=2 destino=0
+2061;2;RECIBIR;origen=0 reloj=2060 solicitud=2056 RECIBIDA
+2062;2;ENVIAR;LATIDO puerta=2 destino=0
+2067;2;RECIBIR;origen=0 reloj=2066 solicitud=2062 RECIBIDA
+2068;2;ENVIAR;LATIDO puerta=2 destino=0
+2073;2;RECIBIR;origen=0 reloj=2072 solicitud=2068 RECIBIDA
+2074;2;ENVIAR;LATIDO puerta=2 destino=0
+2079;2;RECIBIR;origen=0 reloj=2078 solicitud=2074 RECIBIDA
+2080;2;ENVIAR;LATIDO puerta=2 destino=0
+2085;2;RECIBIR;origen=0 reloj=2084 solicitud=2080 RECIBIDA
+2086;2;ENVIAR;LATIDO puerta=2 destino=0
+2091;2;RECIBIR;origen=0 reloj=2090 solicitud=2086 RECIBIDA
+2092;2;ENVIAR;LATIDO puerta=2 destino=0
+2097;2;RECIBIR;origen=0 reloj=2096 solicitud=2092 RECIBIDA
+2098;2;ENVIAR;LATIDO puerta=2 destino=0
+2103;2;RECIBIR;origen=0 reloj=2102 solicitud=2098 RECIBIDA
+2104;2;ENVIAR;LATIDO puerta=2 destino=0
+2109;2;RECIBIR;origen=0 reloj=2108 solicitud=2104 RECIBIDA
+2110;2;ENVIAR;LATIDO puerta=2 destino=0
+2115;2;RECIBIR;origen=0 reloj=2114 solicitud=2110 RECIBIDA
+2116;2;ENVIAR;LATIDO puerta=2 destino=0
+2121;2;RECIBIR;origen=0 reloj=2120 solicitud=2116 RECIBIDA
+2122;2;ENVIAR;LATIDO puerta=2 destino=0
+2127;2;RECIBIR;origen=0 reloj=2126 solicitud=2122 RECIBIDA
+2128;2;ENVIAR;LATIDO puerta=2 destino=0
+2133;2;RECIBIR;origen=0 reloj=2132 solicitud=2128 RECIBIDA
+2134;2;ENVIAR;LATIDO puerta=2 destino=0
+2139;2;RECIBIR;origen=0 reloj=2138 solicitud=2134 RECIBIDA
+2140;2;ENVIAR;LATIDO puerta=2 destino=0
+2145;2;RECIBIR;origen=0 reloj=2144 solicitud=2140 RECIBIDA
+2146;2;ENVIAR;LATIDO puerta=2 destino=0
+2151;2;RECIBIR;origen=0 reloj=2150 solicitud=2146 RECIBIDA
+2152;2;ENVIAR;LATIDO puerta=2 destino=0
+2157;2;RECIBIR;origen=0 reloj=2156 solicitud=2152 RECIBIDA
+2158;2;ENVIAR;LATIDO puerta=2 destino=0
+2163;2;RECIBIR;origen=0 reloj=2162 solicitud=2158 RECIBIDA
+2164;2;ENVIAR;LATIDO puerta=2 destino=0
+2169;2;RECIBIR;origen=0 reloj=2168 solicitud=2164 RECIBIDA
+2170;2;ENVIAR;LATIDO puerta=2 destino=0
+2175;2;RECIBIR;origen=0 reloj=2174 solicitud=2170 RECIBIDA
+2176;2;ENVIAR;LATIDO puerta=2 destino=0
+2181;2;RECIBIR;origen=0 reloj=2180 solicitud=2176 RECIBIDA
+2182;2;ENVIAR;LATIDO puerta=2 destino=0
+2187;2;RECIBIR;origen=0 reloj=2186 solicitud=2182 RECIBIDA
+2188;2;ENVIAR;LATIDO puerta=2 destino=0
+2193;2;RECIBIR;origen=0 reloj=2192 solicitud=2188 RECIBIDA
+2194;2;ENVIAR;LATIDO puerta=2 destino=0
+2199;2;RECIBIR;origen=0 reloj=2198 solicitud=2194 RECIBIDA
+2200;2;ENVIAR;LATIDO puerta=2 destino=0
+2205;2;RECIBIR;origen=0 reloj=2204 solicitud=2200 RECIBIDA
+2206;2;ENVIAR;LATIDO puerta=2 destino=0
+2211;2;RECIBIR;origen=0 reloj=2210 solicitud=2206 RECIBIDA
+2212;2;ENVIAR;LATIDO puerta=2 destino=0
+2217;2;RECIBIR;origen=0 reloj=2216 solicitud=2212 RECIBIDA
+2218;2;ENVIAR;LATIDO puerta=2 destino=0
+2223;2;RECIBIR;origen=0 reloj=2222 solicitud=2218 RECIBIDA
+2224;2;ENVIAR;LATIDO puerta=2 destino=0
+2229;2;RECIBIR;origen=0 reloj=2228 solicitud=2224 RECIBIDA
+2230;2;ENVIAR;LATIDO puerta=2 destino=0
+2235;2;RECIBIR;origen=0 reloj=2234 solicitud=2230 RECIBIDA
+2236;2;ENVIAR;LATIDO puerta=2 destino=0
+2241;2;RECIBIR;origen=0 reloj=2240 solicitud=2236 RECIBIDA
+2242;2;ENVIAR;LATIDO puerta=2 destino=0
+2247;2;RECIBIR;origen=0 reloj=2246 solicitud=2242 RECIBIDA
+2248;2;ENVIAR;LATIDO puerta=2 destino=0
+2253;2;RECIBIR;origen=0 reloj=2252 solicitud=2248 RECIBIDA
+2254;2;ENVIAR;LATIDO puerta=2 destino=0
+2259;2;RECIBIR;origen=0 reloj=2258 solicitud=2254 RECIBIDA
+2260;2;ENVIAR;LATIDO puerta=2 destino=0
+2265;2;RECIBIR;origen=0 reloj=2264 solicitud=2260 RECIBIDA
+2266;2;ENVIAR;LATIDO puerta=2 destino=0
+2271;2;RECIBIR;origen=0 reloj=2270 solicitud=2266 RECIBIDA
+2272;2;ENVIAR;LATIDO puerta=2 destino=0
+2277;2;RECIBIR;origen=0 reloj=2276 solicitud=2272 RECIBIDA
+2278;2;ENVIAR;LATIDO puerta=2 destino=0
+2283;2;RECIBIR;origen=0 reloj=2282 solicitud=2278 RECIBIDA
+2284;2;ENVIAR;LATIDO puerta=2 destino=0
+2289;2;RECIBIR;origen=0 reloj=2288 solicitud=2284 RECIBIDA
+2290;2;ENVIAR;LATIDO puerta=2 destino=0
+2295;2;RECIBIR;origen=0 reloj=2294 solicitud=2290 RECIBIDA
+2296;2;ENVIAR;LATIDO puerta=2 destino=0
+2301;2;RECIBIR;origen=0 reloj=2300 solicitud=2296 RECIBIDA
+2302;2;ENVIAR;LATIDO puerta=2 destino=0
+2307;2;RECIBIR;origen=0 reloj=2306 solicitud=2302 RECIBIDA
+2308;2;ENVIAR;LATIDO puerta=2 destino=0
+2313;2;RECIBIR;origen=0 reloj=2312 solicitud=2308 RECIBIDA
+2314;2;ENVIAR;LATIDO puerta=2 destino=0
+2319;2;RECIBIR;origen=0 reloj=2318 solicitud=2314 RECIBIDA
+2320;2;ENVIAR;LATIDO puerta=2 destino=0
+2325;2;RECIBIR;origen=0 reloj=2324 solicitud=2320 RECIBIDA
+2326;2;ENVIAR;LATIDO puerta=2 destino=0
+2331;2;RECIBIR;origen=0 reloj=2330 solicitud=2326 RECIBIDA
+2332;2;ENVIAR;LATIDO puerta=2 destino=0
+2337;2;RECIBIR;origen=0 reloj=2336 solicitud=2332 RECIBIDA
+2338;2;ENVIAR;LATIDO puerta=2 destino=0
+2343;2;RECIBIR;origen=0 reloj=2342 solicitud=2338 RECIBIDA
+2344;2;ENVIAR;LATIDO puerta=2 destino=0
+2349;2;RECIBIR;origen=0 reloj=2348 solicitud=2344 RECIBIDA
+2350;2;ENVIAR;LATIDO puerta=2 destino=0
+2355;2;RECIBIR;origen=0 reloj=2354 solicitud=2350 RECIBIDA
+2356;2;ENVIAR;LATIDO puerta=2 destino=0
+2361;2;RECIBIR;origen=0 reloj=2360 solicitud=2356 RECIBIDA
+2362;2;ENVIAR;LATIDO puerta=2 destino=0
+2367;2;RECIBIR;origen=0 reloj=2366 solicitud=2362 RECIBIDA
+2368;2;ENVIAR;LATIDO puerta=2 destino=0
+2373;2;RECIBIR;origen=0 reloj=2372 solicitud=2368 RECIBIDA
+2374;2;ENVIAR;LATIDO puerta=2 destino=0
+2379;2;RECIBIR;origen=0 reloj=2378 solicitud=2374 RECIBIDA
+2380;2;ENVIAR;LATIDO puerta=2 destino=0
+2385;2;RECIBIR;origen=0 reloj=2384 solicitud=2380 RECIBIDA
+2386;2;ENVIAR;LATIDO puerta=2 destino=0
+2391;2;RECIBIR;origen=0 reloj=2390 solicitud=2386 RECIBIDA
+2392;2;ENVIAR;LATIDO puerta=2 destino=0
+2397;2;RECIBIR;origen=0 reloj=2396 solicitud=2392 RECIBIDA
+2398;2;ENVIAR;LATIDO puerta=2 destino=0
+2403;2;RECIBIR;origen=0 reloj=2402 solicitud=2398 RECIBIDA
+2404;2;ENVIAR;LATIDO puerta=2 destino=0
+2409;2;RECIBIR;origen=0 reloj=2408 solicitud=2404 RECIBIDA
+2410;2;ENVIAR;LATIDO puerta=2 destino=0
+2415;2;RECIBIR;origen=0 reloj=2414 solicitud=2410 RECIBIDA
+2416;2;ENVIAR;LATIDO puerta=2 destino=0
+2421;2;RECIBIR;origen=0 reloj=2420 solicitud=2416 RECIBIDA
+2422;2;ENVIAR;LATIDO puerta=2 destino=0
+2427;2;RECIBIR;origen=0 reloj=2426 solicitud=2422 RECIBIDA
+2428;2;ENVIAR;LATIDO puerta=2 destino=0
+2433;2;RECIBIR;origen=0 reloj=2432 solicitud=2428 RECIBIDA
+2434;2;ENVIAR;LATIDO puerta=2 destino=0
+2439;2;RECIBIR;origen=0 reloj=2438 solicitud=2434 RECIBIDA
+2440;2;ENVIAR;LATIDO puerta=2 destino=0
+2445;2;RECIBIR;origen=0 reloj=2444 solicitud=2440 RECIBIDA
+2446;2;ENVIAR;LATIDO puerta=2 destino=0
+2451;2;RECIBIR;origen=0 reloj=2450 solicitud=2446 RECIBIDA
+2452;2;ENVIAR;LATIDO puerta=2 destino=0
+2457;2;RECIBIR;origen=0 reloj=2456 solicitud=2452 RECIBIDA
+2458;2;ENVIAR;LATIDO puerta=2 destino=0
+2463;2;RECIBIR;origen=0 reloj=2462 solicitud=2458 RECIBIDA
+2464;2;ENVIAR;LATIDO puerta=2 destino=0
+2469;2;RECIBIR;origen=0 reloj=2468 solicitud=2464 RECIBIDA
+2470;2;ENVIAR;LATIDO puerta=2 destino=0
+2475;2;RECIBIR;origen=0 reloj=2474 solicitud=2470 RECIBIDA
+2476;2;ENVIAR;LATIDO puerta=2 destino=0
+2481;2;RECIBIR;origen=0 reloj=2480 solicitud=2476 RECIBIDA
+2482;2;ENVIAR;LATIDO puerta=2 destino=0
+2487;2;RECIBIR;origen=0 reloj=2486 solicitud=2482 RECIBIDA
+2488;2;ENVIAR;LATIDO puerta=2 destino=0
+2493;2;RECIBIR;origen=0 reloj=2492 solicitud=2488 RECIBIDA
+2494;2;ENVIAR;LATIDO puerta=2 destino=0
+2499;2;RECIBIR;origen=0 reloj=2498 solicitud=2494 RECIBIDA
+2500;2;ENVIAR;LATIDO puerta=2 destino=0
+2505;2;RECIBIR;origen=0 reloj=2504 solicitud=2500 RECIBIDA
+2506;2;ENVIAR;LATIDO puerta=2 destino=0
+2511;2;RECIBIR;origen=0 reloj=2510 solicitud=2506 RECIBIDA
+2512;2;ENVIAR;LATIDO puerta=2 destino=0
+2517;2;RECIBIR;origen=0 reloj=2516 solicitud=2512 RECIBIDA
+2518;2;ENVIAR;LATIDO puerta=2 destino=0
+2523;2;RECIBIR;origen=0 reloj=2522 solicitud=2518 RECIBIDA
+2524;2;ENVIAR;LATIDO puerta=2 destino=0
+2529;2;RECIBIR;origen=0 reloj=2528 solicitud=2524 RECIBIDA
+2530;2;ENVIAR;LATIDO puerta=2 destino=0
+2535;2;RECIBIR;origen=0 reloj=2534 solicitud=2530 RECIBIDA
+2536;2;ENVIAR;LATIDO puerta=2 destino=0
+2541;2;RECIBIR;origen=0 reloj=2540 solicitud=2536 RECIBIDA
+2542;2;ENVIAR;LATIDO puerta=2 destino=0
+2547;2;RECIBIR;origen=0 reloj=2546 solicitud=2542 RECIBIDA
+2548;2;ENVIAR;LATIDO puerta=2 destino=0
+2553;2;RECIBIR;origen=0 reloj=2552 solicitud=2548 RECIBIDA
+2554;2;ENVIAR;LATIDO puerta=2 destino=0
+2559;2;RECIBIR;origen=0 reloj=2558 solicitud=2554 RECIBIDA
+2560;2;ENVIAR;LATIDO puerta=2 destino=0
+2565;2;RECIBIR;origen=0 reloj=2564 solicitud=2560 RECIBIDA
+2566;2;ENVIAR;LATIDO puerta=2 destino=0
+2571;2;RECIBIR;origen=0 reloj=2570 solicitud=2566 RECIBIDA
+2572;2;ENVIAR;LATIDO puerta=2 destino=0
+2577;2;RECIBIR;origen=0 reloj=2576 solicitud=2572 RECIBIDA
+2578;2;ENVIAR;LATIDO puerta=2 destino=0
+2583;2;RECIBIR;origen=0 reloj=2582 solicitud=2578 RECIBIDA
+2584;2;ENVIAR;LATIDO puerta=2 destino=0
+2589;2;RECIBIR;origen=0 reloj=2588 solicitud=2584 RECIBIDA
+2590;2;ENVIAR;LATIDO puerta=2 destino=0
+2595;2;RECIBIR;origen=0 reloj=2594 solicitud=2590 RECIBIDA
+2596;2;ENVIAR;LATIDO puerta=2 destino=0
+2601;2;RECIBIR;origen=0 reloj=2600 solicitud=2596 RECIBIDA
+2602;2;ENVIAR;LATIDO puerta=2 destino=0
+2607;2;RECIBIR;origen=0 reloj=2606 solicitud=2602 RECIBIDA
+2608;2;ENVIAR;LATIDO puerta=2 destino=0
+2613;2;RECIBIR;origen=0 reloj=2612 solicitud=2608 RECIBIDA
+2614;2;ENVIAR;LATIDO puerta=2 destino=0
+2619;2;RECIBIR;origen=0 reloj=2618 solicitud=2614 RECIBIDA
+2620;2;ENVIAR;LATIDO puerta=2 destino=0
+2625;2;RECIBIR;origen=0 reloj=2624 solicitud=2620 RECIBIDA
+2626;2;ENVIAR;LATIDO puerta=2 destino=0
+2631;2;RECIBIR;origen=0 reloj=2630 solicitud=2626 RECIBIDA
+2632;2;ENVIAR;LATIDO puerta=2 destino=0
+2637;2;RECIBIR;origen=0 reloj=2636 solicitud=2632 RECIBIDA
+2638;2;ENVIAR;LATIDO puerta=2 destino=0
+2643;2;RECIBIR;origen=0 reloj=2642 solicitud=2638 RECIBIDA
+2644;2;ENVIAR;LATIDO puerta=2 destino=0
+2649;2;RECIBIR;origen=0 reloj=2648 solicitud=2644 RECIBIDA
+2650;2;ENVIAR;LATIDO puerta=2 destino=0
+2655;2;RECIBIR;origen=0 reloj=2654 solicitud=2650 RECIBIDA
+2656;2;ENVIAR;LATIDO puerta=2 destino=0
+2661;2;RECIBIR;origen=0 reloj=2660 solicitud=2656 RECIBIDA
+2662;2;ENVIAR;LATIDO puerta=2 destino=0
+2667;2;RECIBIR;origen=0 reloj=2666 solicitud=2662 RECIBIDA
+2668;2;ENVIAR;LATIDO puerta=2 destino=0
+2673;2;RECIBIR;origen=0 reloj=2672 solicitud=2668 RECIBIDA
+2674;2;ENVIAR;LATIDO puerta=2 destino=0
+2679;2;RECIBIR;origen=0 reloj=2678 solicitud=2674 RECIBIDA
+2680;2;ENVIAR;LATIDO puerta=2 destino=0
+2685;2;RECIBIR;origen=0 reloj=2684 solicitud=2680 RECIBIDA
+2686;2;ENVIAR;LATIDO puerta=2 destino=0
+2691;2;RECIBIR;origen=0 reloj=2690 solicitud=2686 RECIBIDA
+2692;2;ENVIAR;LATIDO puerta=2 destino=0
+2697;2;RECIBIR;origen=0 reloj=2696 solicitud=2692 RECIBIDA
+2698;2;ENVIAR;LATIDO puerta=2 destino=0
+2703;2;RECIBIR;origen=0 reloj=2702 solicitud=2698 RECIBIDA
+2704;2;ENVIAR;LATIDO puerta=2 destino=0
+2709;2;RECIBIR;origen=0 reloj=2708 solicitud=2704 RECIBIDA
+2710;2;ENVIAR;LATIDO puerta=2 destino=0
+2715;2;RECIBIR;origen=0 reloj=2714 solicitud=2710 RECIBIDA
+2716;2;ENVIAR;LATIDO puerta=2 destino=0
+2721;2;RECIBIR;origen=0 reloj=2720 solicitud=2716 RECIBIDA
+2722;2;ENVIAR;LATIDO puerta=2 destino=0
+2727;2;RECIBIR;origen=0 reloj=2726 solicitud=2722 RECIBIDA
+2728;2;ENVIAR;LATIDO puerta=2 destino=0
+2733;2;RECIBIR;origen=0 reloj=2732 solicitud=2728 RECIBIDA
+2734;2;ENVIAR;LATIDO puerta=2 destino=0
+2739;2;RECIBIR;origen=0 reloj=2738 solicitud=2734 RECIBIDA
+2740;2;ENVIAR;LATIDO puerta=2 destino=0
+2745;2;RECIBIR;origen=0 reloj=2744 solicitud=2740 RECIBIDA
+2746;2;ENVIAR;LATIDO puerta=2 destino=0
+2751;2;RECIBIR;origen=0 reloj=2750 solicitud=2746 RECIBIDA
+2752;2;ENVIAR;LATIDO puerta=2 destino=0
+2757;2;RECIBIR;origen=0 reloj=2756 solicitud=2752 RECIBIDA
+2758;2;ENVIAR;LATIDO puerta=2 destino=0
+2763;2;RECIBIR;origen=0 reloj=2762 solicitud=2758 RECIBIDA
+2764;2;ENVIAR;LATIDO puerta=2 destino=0
+2769;2;RECIBIR;origen=0 reloj=2768 solicitud=2764 RECIBIDA
+2770;2;ENVIAR;LATIDO puerta=2 destino=0
+2775;2;RECIBIR;origen=0 reloj=2774 solicitud=2770 RECIBIDA
+2776;2;ENVIAR;LATIDO puerta=2 destino=0
+2781;2;RECIBIR;origen=0 reloj=2780 solicitud=2776 RECIBIDA
+2782;2;ENVIAR;LATIDO puerta=2 destino=0
+2787;2;RECIBIR;origen=0 reloj=2786 solicitud=2782 RECIBIDA
+2788;2;ENVIAR;LATIDO puerta=2 destino=0
+2793;2;RECIBIR;origen=0 reloj=2792 solicitud=2788 RECIBIDA
+2794;2;ENVIAR;LATIDO puerta=2 destino=0
+2799;2;RECIBIR;origen=0 reloj=2798 solicitud=2794 RECIBIDA
+2800;2;ENVIAR;LATIDO puerta=2 destino=0
+2805;2;RECIBIR;origen=0 reloj=2804 solicitud=2800 RECIBIDA
+2806;2;ENVIAR;LATIDO puerta=2 destino=0
+2811;2;RECIBIR;origen=0 reloj=2810 solicitud=2806 RECIBIDA
+2812;2;ENVIAR;LATIDO puerta=2 destino=0
+2817;2;RECIBIR;origen=0 reloj=2816 solicitud=2812 RECIBIDA
+2818;2;ENVIAR;LATIDO puerta=2 destino=0
+2823;2;RECIBIR;origen=0 reloj=2822 solicitud=2818 RECIBIDA
+2824;2;ENVIAR;LATIDO puerta=2 destino=0
+2829;2;RECIBIR;origen=0 reloj=2828 solicitud=2824 RECIBIDA
+2830;2;ENVIAR;LATIDO puerta=2 destino=0
+2835;2;RECIBIR;origen=0 reloj=2834 solicitud=2830 RECIBIDA
+2836;2;ENVIAR;LATIDO puerta=2 destino=0
+2841;2;RECIBIR;origen=0 reloj=2840 solicitud=2836 RECIBIDA
+2842;2;ENVIAR;LATIDO puerta=2 destino=0
+2847;2;RECIBIR;origen=0 reloj=2846 solicitud=2842 RECIBIDA
+2848;2;ENVIAR;LATIDO puerta=2 destino=0
+2853;2;RECIBIR;origen=0 reloj=2852 solicitud=2848 RECIBIDA
+2854;2;ENVIAR;LATIDO puerta=2 destino=0
+2859;2;RECIBIR;origen=0 reloj=2858 solicitud=2854 RECIBIDA
+2860;2;SIN_RESPUESTA;LATIDO
+2861;2;SIN_RESPUESTA;LATIDO
+2862;2;SIN_RESPUESTA;LATIDO
+2863;2;SIN_RESPUESTA;LATIDO
+2864;2;INICIO;Sur
+2865;2;ENVIAR;LATIDO puerta=2 destino=0
+3144;2;RECIBIR;origen=0 reloj=3143 solicitud=2865 RECIBIDA
+3145;2;ENVIAR;LATIDO puerta=2 destino=0
+3148;2;RECIBIR;origen=0 reloj=3147 solicitud=3145 RECIBIDA
+3149;2;ENVIAR;LATIDO puerta=2 destino=0
+3152;2;RECIBIR;origen=0 reloj=3151 solicitud=3149 RECIBIDA
+3153;2;ENVIAR;LATIDO puerta=2 destino=0
+3157;2;RECIBIR;origen=0 reloj=3156 solicitud=3153 RECIBIDA
+3158;2;ENVIAR;LATIDO puerta=2 destino=0
+3161;2;RECIBIR;origen=0 reloj=3160 solicitud=3158 RECIBIDA
+3162;2;ENVIAR;LATIDO puerta=2 destino=0
+3165;2;RECIBIR;origen=0 reloj=3164 solicitud=3162 RECIBIDA
+3166;2;ENVIAR;LATIDO puerta=2 destino=0
+3169;2;RECIBIR;origen=0 reloj=3168 solicitud=3166 RECIBIDA
+3170;2;ENVIAR;LATIDO puerta=2 destino=0
+3173;2;RECIBIR;origen=0 reloj=3172 solicitud=3170 RECIBIDA
+3174;2;ENVIAR;LATIDO puerta=2 destino=0
+3180;2;RECIBIR;origen=0 reloj=3179 solicitud=3174 RECIBIDA
+3181;2;ENVIAR;LATIDO puerta=2 destino=0
+3186;2;RECIBIR;origen=0 reloj=3185 solicitud=3181 RECIBIDA
+3187;2;ENVIAR;LATIDO puerta=2 destino=0
+3192;2;RECIBIR;origen=0 reloj=3191 solicitud=3187 RECIBIDA
+3193;2;ENVIAR;LATIDO puerta=2 destino=0
+3198;2;RECIBIR;origen=0 reloj=3197 solicitud=3193 RECIBIDA
+3199;2;ENVIAR;LATIDO puerta=2 destino=0
+3204;2;RECIBIR;origen=0 reloj=3203 solicitud=3199 RECIBIDA
+3205;2;ENVIAR;LATIDO puerta=2 destino=0
+3210;2;RECIBIR;origen=0 reloj=3209 solicitud=3205 RECIBIDA
+3211;2;ENVIAR;LATIDO puerta=2 destino=0
+3216;2;RECIBIR;origen=0 reloj=3215 solicitud=3211 RECIBIDA
+3217;2;ENVIAR;LATIDO puerta=2 destino=0
+3222;2;RECIBIR;origen=0 reloj=3221 solicitud=3217 RECIBIDA
+3223;2;ENVIAR;LATIDO puerta=2 destino=0
+3228;2;RECIBIR;origen=0 reloj=3227 solicitud=3223 RECIBIDA
+3229;2;ENVIAR;LATIDO puerta=2 destino=0
+3234;2;RECIBIR;origen=0 reloj=3233 solicitud=3229 RECIBIDA
+3235;2;ENVIAR;LATIDO puerta=2 destino=0
+3240;2;RECIBIR;origen=0 reloj=3239 solicitud=3235 RECIBIDA
+3241;2;ENVIAR;LATIDO puerta=2 destino=0
+3246;2;RECIBIR;origen=0 reloj=3245 solicitud=3241 RECIBIDA
+3247;2;ENVIAR;LATIDO puerta=2 destino=0
+3252;2;RECIBIR;origen=0 reloj=3251 solicitud=3247 RECIBIDA
+3253;2;ENVIAR;LATIDO puerta=2 destino=0
+3258;2;RECIBIR;origen=0 reloj=3257 solicitud=3253 RECIBIDA
+3259;2;ENVIAR;LATIDO puerta=2 destino=0
+3264;2;RECIBIR;origen=0 reloj=3263 solicitud=3259 RECIBIDA
+3265;2;ENVIAR;LATIDO puerta=2 destino=0
+3270;2;RECIBIR;origen=0 reloj=3269 solicitud=3265 RECIBIDA
+3271;2;ENVIAR;LATIDO puerta=2 destino=0
+3276;2;RECIBIR;origen=0 reloj=3275 solicitud=3271 RECIBIDA
+3277;2;ENVIAR;LATIDO puerta=2 destino=0
+3282;2;RECIBIR;origen=0 reloj=3281 solicitud=3277 RECIBIDA
+3283;2;ENVIAR;LATIDO puerta=2 destino=0
+3288;2;RECIBIR;origen=0 reloj=3287 solicitud=3283 RECIBIDA
+3289;2;ENVIAR;LATIDO puerta=2 destino=0
+3294;2;RECIBIR;origen=0 reloj=3293 solicitud=3289 RECIBIDA
+3295;2;ENVIAR;LATIDO puerta=2 destino=0
+3300;2;RECIBIR;origen=0 reloj=3299 solicitud=3295 RECIBIDA
+3301;2;ENVIAR;LATIDO puerta=2 destino=0
+3304;2;RECIBIR;origen=0 reloj=3303 solicitud=3301 RECIBIDA
+3305;2;ENVIAR;LATIDO puerta=2 destino=0
+3308;2;RECIBIR;origen=0 reloj=3307 solicitud=3305 RECIBIDA
+3309;2;ENVIAR;LATIDO puerta=2 destino=0
+3313;2;RECIBIR;origen=0 reloj=3312 solicitud=3309 RECIBIDA
+3314;2;ENVIAR;LATIDO puerta=2 destino=0
+3317;2;RECIBIR;origen=0 reloj=3316 solicitud=3314 RECIBIDA
+3318;2;ENVIAR;LATIDO puerta=2 destino=0
+3321;2;RECIBIR;origen=0 reloj=3320 solicitud=3318 RECIBIDA
+3322;2;ENVIAR;LATIDO puerta=2 destino=0
+3325;2;RECIBIR;origen=0 reloj=3324 solicitud=3322 RECIBIDA
+3326;2;ENVIAR;LATIDO puerta=2 destino=0
+3329;2;RECIBIR;origen=0 reloj=3328 solicitud=3326 RECIBIDA
+3330;2;ENVIAR;LATIDO puerta=2 destino=0
+3333;2;RECIBIR;origen=0 reloj=3332 solicitud=3330 RECIBIDA
+3334;2;ENVIAR;LATIDO puerta=2 destino=0
+3337;2;RECIBIR;origen=0 reloj=3336 solicitud=3334 RECIBIDA
+3338;2;ENVIAR;LATIDO puerta=2 destino=0
+3341;2;RECIBIR;origen=0 reloj=3340 solicitud=3338 RECIBIDA
+3342;2;ENVIAR;LATIDO puerta=2 destino=0
+3348;2;RECIBIR;origen=0 reloj=3347 solicitud=3342 RECIBIDA
+3349;2;ENVIAR;LATIDO puerta=2 destino=0
+3354;2;RECIBIR;origen=0 reloj=3353 solicitud=3349 RECIBIDA
+3355;2;ENVIAR;LATIDO puerta=2 destino=0
+3360;2;RECIBIR;origen=0 reloj=3359 solicitud=3355 RECIBIDA
+3361;2;ENVIAR;LATIDO puerta=2 destino=0
+3366;2;RECIBIR;origen=0 reloj=3365 solicitud=3361 RECIBIDA
+3367;2;ENVIAR;LATIDO puerta=2 destino=0
+3372;2;RECIBIR;origen=0 reloj=3371 solicitud=3367 RECIBIDA
+3373;2;ENVIAR;LATIDO puerta=2 destino=0
+3378;2;RECIBIR;origen=0 reloj=3377 solicitud=3373 RECIBIDA
+3379;2;ENVIAR;LATIDO puerta=2 destino=0
+3384;2;RECIBIR;origen=0 reloj=3383 solicitud=3379 RECIBIDA
+3385;2;ENVIAR;LATIDO puerta=2 destino=0
+3390;2;RECIBIR;origen=0 reloj=3389 solicitud=3385 RECIBIDA
+3391;2;ENVIAR;LATIDO puerta=2 destino=0
+3396;2;RECIBIR;origen=0 reloj=3395 solicitud=3391 RECIBIDA
+3397;2;ENVIAR;LATIDO puerta=2 destino=0
+3402;2;RECIBIR;origen=0 reloj=3401 solicitud=3397 RECIBIDA
+3403;2;ENVIAR;LATIDO puerta=2 destino=0
+3408;2;RECIBIR;origen=0 reloj=3407 solicitud=3403 RECIBIDA
+3409;2;ENVIAR;LATIDO puerta=2 destino=0
+3414;2;RECIBIR;origen=0 reloj=3413 solicitud=3409 RECIBIDA
+3415;2;ENVIAR;LATIDO puerta=2 destino=0
+3420;2;RECIBIR;origen=0 reloj=3419 solicitud=3415 RECIBIDA
+3421;2;ENVIAR;LATIDO puerta=2 destino=0
+3426;2;RECIBIR;origen=0 reloj=3425 solicitud=3421 RECIBIDA
+3427;2;ENVIAR;LATIDO puerta=2 destino=0
+3432;2;RECIBIR;origen=0 reloj=3431 solicitud=3427 RECIBIDA
+3433;2;ENVIAR;LATIDO puerta=2 destino=0
+3438;2;RECIBIR;origen=0 reloj=3437 solicitud=3433 RECIBIDA
+3439;2;ENVIAR;LATIDO puerta=2 destino=0
+3444;2;RECIBIR;origen=0 reloj=3443 solicitud=3439 RECIBIDA
+3445;2;ENVIAR;LATIDO puerta=2 destino=0
+3450;2;RECIBIR;origen=0 reloj=3449 solicitud=3445 RECIBIDA
+3451;2;ENVIAR;LATIDO puerta=2 destino=0
+3456;2;RECIBIR;origen=0 reloj=3455 solicitud=3451 RECIBIDA
+3457;2;ENVIAR;LATIDO puerta=2 destino=0
+3462;2;RECIBIR;origen=0 reloj=3461 solicitud=3457 RECIBIDA
+3463;2;ENVIAR;LATIDO puerta=2 destino=0
+3468;2;RECIBIR;origen=0 reloj=3467 solicitud=3463 RECIBIDA
+3469;2;ENVIAR;LATIDO puerta=2 destino=0
+3474;2;RECIBIR;origen=0 reloj=3473 solicitud=3469 RECIBIDA
+3475;2;ENVIAR;LATIDO puerta=2 destino=0
+3480;2;RECIBIR;origen=0 reloj=3479 solicitud=3475 RECIBIDA
+3481;2;ENVIAR;LATIDO puerta=2 destino=0
+3486;2;RECIBIR;origen=0 reloj=3485 solicitud=3481 RECIBIDA
+3487;2;ENVIAR;LATIDO puerta=2 destino=0
+3492;2;RECIBIR;origen=0 reloj=3491 solicitud=3487 RECIBIDA
+3493;2;ENVIAR;LATIDO puerta=2 destino=0
+3498;2;RECIBIR;origen=0 reloj=3497 solicitud=3493 RECIBIDA
+3499;2;ENVIAR;LATIDO puerta=2 destino=0
+3504;2;RECIBIR;origen=0 reloj=3503 solicitud=3499 RECIBIDA
+3505;2;ENVIAR;LATIDO puerta=2 destino=0
+3510;2;RECIBIR;origen=0 reloj=3509 solicitud=3505 RECIBIDA
+3511;2;ENVIAR;LATIDO puerta=2 destino=0
+3516;2;RECIBIR;origen=0 reloj=3515 solicitud=3511 RECIBIDA
+3517;2;ENVIAR;LATIDO puerta=2 destino=0
+3522;2;RECIBIR;origen=0 reloj=3521 solicitud=3517 RECIBIDA
+3523;2;ENVIAR;LATIDO puerta=2 destino=0
+3528;2;RECIBIR;origen=0 reloj=3527 solicitud=3523 RECIBIDA
+3529;2;ENVIAR;LATIDO puerta=2 destino=0
+3534;2;RECIBIR;origen=0 reloj=3533 solicitud=3529 RECIBIDA
+3535;2;ENVIAR;LATIDO puerta=2 destino=0
+3540;2;RECIBIR;origen=0 reloj=3539 solicitud=3535 RECIBIDA
+3541;2;ENVIAR;LATIDO puerta=2 destino=0
+3546;2;RECIBIR;origen=0 reloj=3545 solicitud=3541 RECIBIDA
+3547;2;ENVIAR;LATIDO puerta=2 destino=0
+3552;2;RECIBIR;origen=0 reloj=3551 solicitud=3547 RECIBIDA
+3553;2;ENVIAR;LATIDO puerta=2 destino=0
+3558;2;RECIBIR;origen=0 reloj=3557 solicitud=3553 RECIBIDA
+3559;2;ENVIAR;LATIDO puerta=2 destino=0
+3564;2;RECIBIR;origen=0 reloj=3563 solicitud=3559 RECIBIDA
+3565;2;ENVIAR;LATIDO puerta=2 destino=0
+3570;2;RECIBIR;origen=0 reloj=3569 solicitud=3565 RECIBIDA
+3571;2;ENVIAR;LATIDO puerta=2 destino=0
+3576;2;RECIBIR;origen=0 reloj=3575 solicitud=3571 RECIBIDA
+3577;2;ENVIAR;LATIDO puerta=2 destino=0
+3582;2;RECIBIR;origen=0 reloj=3581 solicitud=3577 RECIBIDA
+3583;2;ENVIAR;LATIDO puerta=2 destino=0
+3588;2;RECIBIR;origen=0 reloj=3587 solicitud=3583 RECIBIDA
+3589;2;ENVIAR;LATIDO puerta=2 destino=0
+3594;2;RECIBIR;origen=0 reloj=3593 solicitud=3589 RECIBIDA
+3595;2;ENVIAR;LATIDO puerta=2 destino=0
+3600;2;RECIBIR;origen=0 reloj=3599 solicitud=3595 RECIBIDA
+3601;2;ENVIAR;LATIDO puerta=2 destino=0
+3606;2;RECIBIR;origen=0 reloj=3605 solicitud=3601 RECIBIDA
+3607;2;ENVIAR;LATIDO puerta=2 destino=0
+3612;2;RECIBIR;origen=0 reloj=3611 solicitud=3607 RECIBIDA
+3613;2;ENVIAR;LATIDO puerta=2 destino=0
+3618;2;RECIBIR;origen=0 reloj=3617 solicitud=3613 RECIBIDA
+3619;2;ENVIAR;LATIDO puerta=2 destino=0
+3624;2;RECIBIR;origen=0 reloj=3623 solicitud=3619 RECIBIDA
+3625;2;SIN_RESPUESTA;LATIDO
+3626;2;SIN_RESPUESTA;LATIDO
+3627;2;SIN_RESPUESTA;LATIDO
+3628;2;SIN_RESPUESTA;LATIDO
+3629;2;SIN_RESPUESTA;LATIDO
+3630;2;SIN_RESPUESTA;LATIDO
+3631;2;SIN_RESPUESTA;LATIDO
+3632;2;SIN_RESPUESTA;LATIDO
+3633;2;SIN_RESPUESTA;LATIDO
+3634;2;SIN_RESPUESTA;LATIDO
+3635;2;SIN_RESPUESTA;LATIDO
+3636;2;SIN_RESPUESTA;LATIDO
+3637;2;SIN_RESPUESTA;LATIDO
+3638;2;SIN_RESPUESTA;LATIDO
+3639;2;SIN_RESPUESTA;LATIDO
+3640;2;SIN_RESPUESTA;LATIDO
+3641;2;SIN_RESPUESTA;LATIDO
+3642;2;SIN_RESPUESTA;LATIDO
+3643;2;SIN_RESPUESTA;LATIDO
+3644;2;SIN_RESPUESTA;LATIDO
+3645;2;SIN_RESPUESTA;LATIDO
+3646;2;SIN_RESPUESTA;LATIDO
+3647;2;SIN_RESPUESTA;LATIDO
+3648;2;SIN_RESPUESTA;LATIDO
+3649;2;SIN_RESPUESTA;LATIDO
+3650;2;SIN_RESPUESTA;LATIDO
+3651;2;SIN_RESPUESTA;LATIDO
+3652;2;SIN_RESPUESTA;LATIDO
+3653;2;SIN_RESPUESTA;LATIDO
+3654;2;SIN_RESPUESTA;LATIDO
+3655;2;SIN_RESPUESTA;LATIDO
+3656;2;SIN_RESPUESTA;LATIDO
+3657;2;SIN_RESPUESTA;LATIDO
+3658;2;SIN_RESPUESTA;LATIDO
+3659;2;SIN_RESPUESTA;LATIDO
+3660;2;SIN_RESPUESTA;LATIDO
+3661;2;SIN_RESPUESTA;LATIDO
+3662;2;SIN_RESPUESTA;LATIDO
