@@ -1,10 +1,6 @@
 package aforoseguro;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.net.Socket;
 import java.nio.file.Path;
 import java.util.Locale;
 import java.util.Scanner;
@@ -38,14 +34,9 @@ public final class Puerta {
     }
 
     private static void solicitar(Configuracion config, String id, String orden) {
-        try (var socket = new Socket()) {
-            socket.connect(new InetSocketAddress(config.host(), config.puerto()), 2000);
-            socket.setSoTimeout(2000);
-            var salida = new DataOutputStream(socket.getOutputStream());
-            var entrada = new DataInputStream(socket.getInputStream());
-            salida.writeUTF(orden + "|" + id + "|" + config.token());
-            salida.flush();
-            String[] respuesta = entrada.readUTF().split("\\|", -1);
+        try {
+            String[] respuesta = Conexion.solicitar(config, orden + "|" + id + "|" + config.token())
+                    .split("\\|", -1);
             if (respuesta[0].equals("PERMITIDA") && respuesta.length == 3) {
                 System.out.printf("PERMITIDA. Dentro: %s/%s%n", respuesta[1], respuesta[2]);
             } else if (respuesta[0].equals("RECHAZADA") && respuesta.length == 2) {

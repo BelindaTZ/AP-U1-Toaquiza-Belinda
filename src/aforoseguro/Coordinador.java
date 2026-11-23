@@ -10,28 +10,34 @@ import java.net.Socket;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public final class Coordinador {
     private final Configuracion config;
-    private int dentro;
+    private final AtomicInteger dentro = new AtomicInteger();
+    private final boolean inseguro;
 
-    private Coordinador(Configuracion config) {
+    private Coordinador(Configuracion config, boolean inseguro) {
         this.config = config;
+        this.inseguro = inseguro;
     }
 
     public static void main(String[] args) throws IOException {
-        Path archivo = Path.of(args.length == 0 ? "config.properties" : args[0]);
-        new Coordinador(Configuracion.cargar(archivo)).ejecutar();
+        boolean inseguro = args.length > 0 && args[0].equals("--modo-inseguro");
+        int indice = inseguro ? 1 : 0;
+        Path archivo = Path.of(args.length > indice ? args[indice] : "config.properties");
+        new Coordinador(Configuracion.cargar(archivo), inseguro).ejecutar();
     }
 
     private void ejecutar() throws IOException {
         Files.createDirectories(Path.of("logs"));
         try (var servidor = new ServerSocket()) {
             servidor.bind(new InetSocketAddress(config.host(), config.puerto()));
-            System.out.printf("Coordinador 0 en %s:%d, aforo %d%n",
-                    config.host(), config.puerto(), config.aforo());
+            System.out.printf("Coordinador 0 en %s:%d, aforo %d, modo %s%n",
+                    config.host(), config.puerto(), config.aforo(), inseguro ? "inseguro" : "normal");
             while (true) {
-                atender(servidor.accept());
+                Socket cliente = servidor.accept();
+                Thread.startVirtualThread(() -> atender(cliente));
             }
         }
     }
@@ -40,6 +46,7 @@ public final class Coordinador {
         try (conexion;
              var entrada = new DataInputStream(conexion.getInputStream());
              var salida = new DataOutputStream(conexion.getOutputStream())) {
+            conexion.setSoTimeout(5000);
             while (true) {
                 salida.writeUTF(procesar(entrada.readUTF()));
                 salida.flush();
@@ -66,24 +73,42 @@ public final class Coordinador {
             return "RECHAZADA|solicitud inválida";
         }
 
-        switch (campos[0]) {
+        return inseguro ? operar(campos[0]) : operarSeguro(campos[0]);
+    }
+
+    private synchronized String operarSeguro(String orden) {
+        return operar(orden);
+    }
+
+    private String operar(String orden) {
+        int total = dentro.get();
+        switch (orden) {
             case "ENTRAR" -> {
-                if (dentro >= config.aforo()) {
+                if (total >= config.aforo()) {
                     return "RECHAZADA|aforo completo";
                 }
-                dentro++;
+                if (inseguro) {
+                    try {
+                        Thread.sleep(50);
+                    } catch (InterruptedException error) {
+                        Thread.currentThread().interrupt();
+                        return "RECHAZADA|operación interrumpida";
+                    }
+                }
+                total = dentro.incrementAndGet();
             }
             case "SALIR" -> {
-                if (dentro == 0) {
+                int anterior = dentro.getAndUpdate(actual -> Math.max(0, actual - 1));
+                if (anterior == 0) {
                     return "RECHAZADA|nadie dentro";
                 }
-                dentro--;
+                total = anterior - 1;
             }
             case "ESTADO" -> { }
             default -> {
                 return "RECHAZADA|operación desconocida";
             }
         }
-        return "PERMITIDA|" + dentro + "|" + config.aforo();
+        return "PERMITIDA|" + total + "|" + config.aforo();
     }
 }
