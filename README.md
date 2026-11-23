@@ -60,3 +60,12 @@ pdflatex -interaction=nonstopmode -halt-on-error entrega_SGA.tex
 ## Código reutilizado
 
 No se reutilizó código.
+
+## Registro posterior de los códigos de sesión
+
+El 23 de noviembre de 2026 se anotaron los códigos facilitados después de publicar el historial original.
+
+- Sesión 1 — `KD55-TD`
+- Sesión 2 — `662D-M6`
+
+Esta nota documenta los códigos de forma retrospectiva. No acredita que se incluyeran en los commits de inicio o del minuto 60.
