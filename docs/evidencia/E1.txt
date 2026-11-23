@@ -1,0 +1,11 @@
+pc-07\lab_0.06
+PC-07
+2026-11-23T09:07:11.035942-05:00
+P2 salir vacio -> RECHAZADA. nadie dentro
+P1 entrar -> PERMITIDA. Dentro: 1/10
+P2 entrar -> PERMITIDA. Dentro: 2/10
+P3 entrar -> PERMITIDA. Dentro: 3/10
+P2 salir -> PERMITIDA. Dentro: 2/10
+P1 estado -> PERMITIDA. Dentro: 2/10
+P2 estado -> PERMITIDA. Dentro: 2/10
+P3 estado -> PERMITIDA. Dentro: 2/10

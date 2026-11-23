@@ -1,0 +1,8 @@
+pc-07\lab_0.06
+PC-07
+2026-11-23T09:06:27.5629674-05:00
+
+Name       Status
+----       ------
+Ethernet   Up
+Ethernet 2 Up

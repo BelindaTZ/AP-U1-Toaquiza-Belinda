@@ -1,0 +1,19 @@
+pc-07\lab_0.06
+PC-07
+2026-11-23T09:07:11.167745-05:00
+Entrada 1 -> PERMITIDA. Dentro: 1/10
+Entrada 2 -> PERMITIDA. Dentro: 2/10
+Entrada 3 -> PERMITIDA. Dentro: 3/10
+Entrada 4 -> PERMITIDA. Dentro: 4/10
+Entrada 5 -> PERMITIDA. Dentro: 5/10
+Entrada 6 -> PERMITIDA. Dentro: 6/10
+Entrada 7 -> PERMITIDA. Dentro: 7/10
+Entrada 8 -> PERMITIDA. Dentro: 8/10
+Entrada 9 -> PERMITIDA. Dentro: 9/10
+Entrada 10 -> PERMITIDA. Dentro: 10/10
+Entrada 11 -> RECHAZADA. aforo completo
+Token ausente -> RECHAZADA|token inválido|75
+Token incorrecto -> RECHAZADA|token inválido|78
+Estado en la misma conexion -> PERMITIDA|10|10|P1=CAIDA, P2=CAIDA, P3=CAIDA|80
+Bitacora: TOKEN_INVALIDO
+Bitacora: TOKEN_INVALIDO

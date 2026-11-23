@@ -1,0 +1,19 @@
+1;2;INICIO;Sur
+2;2;ENVIAR;LATIDO puerta=2 destino=0
+9;2;RECIBIR;origen=0 reloj=8 solicitud=2 RECIBIDA
+10;2;ENVIAR;SALIR puerta=2 destino=0
+13;2;RECIBIR;origen=0 reloj=12 solicitud=10 RECHAZADA nadie dentro
+14;2;ENVIAR;ENTRAR puerta=2 destino=0
+17;2;RECIBIR;origen=0 reloj=16 solicitud=14 PERMITIDA 2 10
+18;2;ENVIAR;SALIR puerta=2 destino=0
+24;2;RECIBIR;origen=0 reloj=23 solicitud=18 PERMITIDA 2 10
+25;2;ENVIAR;ESTADO puerta=2 destino=0
+28;2;RECIBIR;origen=0 reloj=27 solicitud=25 PERMITIDA 2 10 P1=ACTIVA, P2=ACTIVA, P3=ACTIVA
+29;2;ENVIAR;LATIDO puerta=2 destino=0
+266;2;RECIBIR;origen=0 reloj=265 solicitud=29 RECIBIDA
+267;2;ENVIAR;LATIDO puerta=2 destino=0
+273;2;RECIBIR;origen=0 reloj=272 solicitud=267 RECIBIDA
+274;2;ENVIAR;LATIDO puerta=2 destino=0
+277;2;RECIBIR;origen=0 reloj=276 solicitud=274 RECIBIDA
+278;2;ENVIAR;LATIDO puerta=2 destino=0
+281;2;RECIBIR;origen=0 reloj=280 solicitud=278 RECIBIDA

@@ -1,0 +1,9 @@
+pc-07\lab_0.06
+PC-07
+2026-11-23T09:07:12.757231-05:00
+Modo normal
+Permitidas: 10 | Rechazadas: 20 | Errores: 0
+Estado del coordinador: PERMITIDA|10|10|P1=CAIDA, P2=CAIDA, P3=CAIDA
+Modo inseguro
+Permitidas: 30 | Rechazadas: 0 | Errores: 0
+Estado del coordinador: PERMITIDA|30|10|P1=CAIDA, P2=CAIDA, P3=CAIDA

@@ -1,0 +1,55 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\newcommand{\evidencia}[2]{%
+  \par\medskip\textbf{Figura #1. #2}\par
+  \includegraphics[width=\linewidth]{img/E#1.png}\par}
+\begin{document}
+{\Large\textbf{AforoSeguro: informe de práctica}}\par
+Belinda Toaquiza \quad Universidad Técnica Estatal de Quevedo\par
+Aplicaciones Distribuidas (ISR-701) \quad 23 de noviembre de 2026
+
+\section*{Escenarios}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}p{9mm}p{22mm}p{\dimexpr\linewidth-31mm-4\tabcolsep\relax}@{}}
+\textbf{ID} & \textbf{Evidencia} & \textbf{Observación} \\
+E0 & Figura 0 & Los dos adaptadores figuraban activos. La ejecución de práctica no acredita desconexión. \\
+E1 & Figura 1 & Entró una persona por puerta y salió una por P2. Las tres consultas dieron 2 de 10. \\
+E2 & Figura 2 & La entrada 11 fue rechazada. Los dos rechazos por token ausente o incorrecto quedaron registrados. \\
+E3 & Figura 3 & Normal: 10 permitidas, 20 rechazadas y 10 dentro. Inseguro: 30 permitidas, 0 rechazadas y 30 dentro. Cero errores de conexión en ambos modos. \\
+E4 & Figura 4 & P3 apareció caída 6,02 s después de detenerla y activa al volver a iniciarla. \\
+E5 & Figura 5 & Tras detener el coordinador, P1 informó que la operación quedó sin confirmar. \\
+E6 & Figura 6 & Se generó un archivo con 285 eventos ordenados por reloj y luego por identificador de proceso. \\
+\end{tabular}
+
+\section*{Análisis}
+\textbf{1. Concurrencia.} En modo inseguro, varias solicitudes comprobaron el mismo contador antes de que terminaran los 50 ms de espera. Cada incremento fue atómico, pero la comprobación y el incremento en conjunto no lo fueron. En modo normal se ejecutan juntos bajo exclusión mutua. Las operaciones concurrentes esperan su turno en esa sección.
+
+\textbf{2. Coordinador caído.} En E5 la puerta dejó de confirmar entradas. Si una puerta pierde comunicación con la autoridad del contador, seguir aceptando personas impediría garantizar el límite global. En términos de CAP, ante una partición se sacrifica disponibilidad de las admisiones para preservar esa garantía. El público debe esperar y la administración debe restablecer el servicio.
+
+\textbf{3. Punto único de fallo.} En E5 todos los accesos dependían del mismo proceso. Con réplicas, una elección de líder respaldada por un cuórum permitiría sustituirlo. Las réplicas tendrían que acordar el orden de las operaciones y evitar que dos líderes autoricen el mismo cupo.
+
+\textbf{4. Latidos y latencia.} La falacia de la latencia cero haría tratar un silencio como prueba inmediata de caída. Tras 6 s sin entregas, un retardo de 7 s puede causar un falso positivo. Si se siguen enviando latidos y el retraso es constante, después del primer arribo los siguientes podrían volver a llegar cada 2 s.
+
+\textbf{Limitación.} El reinicio del coordinador borra la ocupación en memoria. La administración tendría que reconciliar el aforo antes de reabrir.
+
+\clearpage
+\section*{Salidas de la ejecución local}
+Las figuras se generaron a partir de las transcripciones de la consola en \texttt{evidencia/}.
+\evidencia{0}{Estado observado de los adaptadores}
+\evidencia{1}{Operación normal por las tres puertas}
+\evidencia{2}{Límite, autenticación y tramas consecutivas}
+
+\clearpage
+\section*{Carga, fallos y causalidad}
+\evidencia{3}{Carga en modo normal e inseguro}
+\evidencia{4}{Caída y retorno de P3}
+\evidencia{5}{Intento de entrada con el coordinador detenido}
+\evidencia{6}{Orden total y pares causales}
+
+En el primer par, P1 envió \texttt{ENTRAR} con marca 7 y el coordinador lo recibió con marca 13. En el segundo, P2 envió \texttt{ENTRAR} con marca 14 y el coordinador lo recibió con marca 15. En ambos casos los detalles de recepción identifican la puerta y la marca de envío, y la recepción figura después del envío.
+\end{document}

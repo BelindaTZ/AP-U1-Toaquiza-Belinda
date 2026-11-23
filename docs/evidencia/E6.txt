@@ -1,0 +1,8 @@
+pc-07\lab_0.06
+PC-07
+2026-11-23T09:07:19.313412-05:00
+285 eventos escritos en logs\orden_total.log
+7;1;ENVIAR;ENTRAR puerta=1 destino=0
+13;0;RECIBIR;origen=1 reloj=7 ENTRAR
+14;2;ENVIAR;ENTRAR puerta=2 destino=0
+15;0;RECIBIR;origen=2 reloj=14 ENTRAR

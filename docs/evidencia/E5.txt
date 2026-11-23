@@ -1,0 +1,5 @@
+pc-07\lab_0.06
+PC-07
+2026-11-23T09:07:19.200005-05:00
+Coordinador detenido
+P1 entrar -> Coordinador sin respuesta. Operación sin confirmar.

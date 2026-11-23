@@ -1,0 +1,126 @@
+1;4;INICIO;30 solicitudes
+2;4;ENVIAR;ENTRAR puerta=2 destino=0
+3;4;ENVIAR;ENTRAR puerta=2 destino=0
+4;4;ENVIAR;ENTRAR puerta=3 destino=0
+5;4;ENVIAR;ENTRAR puerta=1 destino=0
+6;4;ENVIAR;ENTRAR puerta=1 destino=0
+7;4;ENVIAR;ENTRAR puerta=1 destino=0
+8;4;ENVIAR;ENTRAR puerta=2 destino=0
+9;4;ENVIAR;ENTRAR puerta=2 destino=0
+10;4;ENVIAR;ENTRAR puerta=2 destino=0
+11;4;ENVIAR;ENTRAR puerta=1 destino=0
+12;4;ENVIAR;ENTRAR puerta=1 destino=0
+13;4;ENVIAR;ENTRAR puerta=1 destino=0
+14;4;ENVIAR;ENTRAR puerta=2 destino=0
+15;4;ENVIAR;ENTRAR puerta=1 destino=0
+16;4;ENVIAR;ENTRAR puerta=2 destino=0
+17;4;ENVIAR;ENTRAR puerta=2 destino=0
+18;4;ENVIAR;ENTRAR puerta=2 destino=0
+19;4;ENVIAR;ENTRAR puerta=2 destino=0
+20;4;ENVIAR;ENTRAR puerta=1 destino=0
+21;4;ENVIAR;ENTRAR puerta=1 destino=0
+22;4;ENVIAR;ENTRAR puerta=3 destino=0
+23;4;ENVIAR;ENTRAR puerta=3 destino=0
+24;4;ENVIAR;ENTRAR puerta=3 destino=0
+25;4;ENVIAR;ENTRAR puerta=3 destino=0
+26;4;ENVIAR;ENTRAR puerta=3 destino=0
+27;4;ENVIAR;ENTRAR puerta=3 destino=0
+28;4;ENVIAR;ENTRAR puerta=3 destino=0
+29;4;ENVIAR;ENTRAR puerta=3 destino=0
+30;4;ENVIAR;ENTRAR puerta=1 destino=0
+31;4;ENVIAR;ENTRAR puerta=3 destino=0
+114;4;RECIBIR;origen=0 reloj=113 solicitud=2 PERMITIDA 9 10
+115;4;RECIBIR;origen=0 reloj=114 solicitud=17 PERMITIDA 1 10
+116;4;RECIBIR;origen=0 reloj=108 solicitud=12 RECHAZADA aforo completo
+123;4;RECIBIR;origen=0 reloj=122 solicitud=18 PERMITIDA 2 10
+124;4;RECIBIR;origen=0 reloj=112 solicitud=13 PERMITIDA 10 10
+125;4;RECIBIR;origen=0 reloj=121 solicitud=19 PERMITIDA 7 10
+126;4;RECIBIR;origen=0 reloj=103 solicitud=5 RECHAZADA aforo completo
+127;4;RECIBIR;origen=0 reloj=110 solicitud=3 RECHAZADA aforo completo
+128;4;RECIBIR;origen=0 reloj=115 solicitud=11 PERMITIDA 6 10
+129;4;RECIBIR;origen=0 reloj=102 solicitud=16 RECHAZADA aforo completo
+130;4;RECIBIR;origen=0 reloj=118 solicitud=14 PERMITIDA 3 10
+131;4;RECIBIR;origen=0 reloj=104 solicitud=7 RECHAZADA aforo completo
+132;4;RECIBIR;origen=0 reloj=109 solicitud=4 PERMITIDA 5 10
+133;4;RECIBIR;origen=0 reloj=111 solicitud=9 RECHAZADA aforo completo
+134;4;RECIBIR;origen=0 reloj=105 solicitud=8 RECHAZADA aforo completo
+135;4;RECIBIR;origen=0 reloj=116 solicitud=6 PERMITIDA 4 10
+136;4;RECIBIR;origen=0 reloj=120 solicitud=26 RECHAZADA aforo completo
+137;4;RECIBIR;origen=0 reloj=106 solicitud=15 RECHAZADA aforo completo
+138;4;RECIBIR;origen=0 reloj=107 solicitud=10 RECHAZADA aforo completo
+139;4;RECIBIR;origen=0 reloj=117 solicitud=21 PERMITIDA 8 10
+142;4;RECIBIR;origen=0 reloj=141 solicitud=24 RECHAZADA aforo completo
+143;4;RECIBIR;origen=0 reloj=136 solicitud=22 RECHAZADA aforo completo
+144;4;RECIBIR;origen=0 reloj=133 solicitud=27 RECHAZADA aforo completo
+145;4;RECIBIR;origen=0 reloj=132 solicitud=20 RECHAZADA aforo completo
+146;4;RECIBIR;origen=0 reloj=134 solicitud=28 RECHAZADA aforo completo
+147;4;RECIBIR;origen=0 reloj=139 solicitud=25 RECHAZADA aforo completo
+148;4;RECIBIR;origen=0 reloj=140 solicitud=23 RECHAZADA aforo completo
+149;4;RECIBIR;origen=0 reloj=135 solicitud=29 RECHAZADA aforo completo
+150;4;RECIBIR;origen=0 reloj=137 solicitud=30 RECHAZADA aforo completo
+151;4;RECIBIR;origen=0 reloj=138 solicitud=31 RECHAZADA aforo completo
+152;4;ENVIAR;ESTADO puerta=1 destino=0
+155;4;RECIBIR;origen=0 reloj=154 solicitud=152 PERMITIDA 10 10 P1=CAIDA, P2=CAIDA, P3=CAIDA
+156;4;INICIO;30 solicitudes
+157;4;ENVIAR;ENTRAR puerta=2 destino=0
+158;4;ENVIAR;ENTRAR puerta=3 destino=0
+159;4;ENVIAR;ENTRAR puerta=2 destino=0
+160;4;ENVIAR;ENTRAR puerta=2 destino=0
+161;4;ENVIAR;ENTRAR puerta=2 destino=0
+162;4;ENVIAR;ENTRAR puerta=1 destino=0
+163;4;ENVIAR;ENTRAR puerta=1 destino=0
+164;4;ENVIAR;ENTRAR puerta=1 destino=0
+165;4;ENVIAR;ENTRAR puerta=2 destino=0
+166;4;ENVIAR;ENTRAR puerta=2 destino=0
+167;4;ENVIAR;ENTRAR puerta=2 destino=0
+168;4;ENVIAR;ENTRAR puerta=2 destino=0
+169;4;ENVIAR;ENTRAR puerta=2 destino=0
+170;4;ENVIAR;ENTRAR puerta=1 destino=0
+171;4;ENVIAR;ENTRAR puerta=1 destino=0
+172;4;ENVIAR;ENTRAR puerta=1 destino=0
+173;4;ENVIAR;ENTRAR puerta=3 destino=0
+174;4;ENVIAR;ENTRAR puerta=1 destino=0
+175;4;ENVIAR;ENTRAR puerta=2 destino=0
+176;4;ENVIAR;ENTRAR puerta=1 destino=0
+177;4;ENVIAR;ENTRAR puerta=3 destino=0
+178;4;ENVIAR;ENTRAR puerta=3 destino=0
+179;4;ENVIAR;ENTRAR puerta=1 destino=0
+180;4;ENVIAR;ENTRAR puerta=3 destino=0
+181;4;ENVIAR;ENTRAR puerta=3 destino=0
+182;4;ENVIAR;ENTRAR puerta=3 destino=0
+183;4;ENVIAR;ENTRAR puerta=3 destino=0
+184;4;ENVIAR;ENTRAR puerta=3 destino=0
+185;4;ENVIAR;ENTRAR puerta=1 destino=0
+186;4;ENVIAR;ENTRAR puerta=3 destino=0
+226;4;RECIBIR;origen=0 reloj=225 solicitud=170 PERMITIDA 5 10
+227;4;RECIBIR;origen=0 reloj=206 solicitud=157 PERMITIDA 13 10
+228;4;RECIBIR;origen=0 reloj=213 solicitud=165 PERMITIDA 14 10
+229;4;RECIBIR;origen=0 reloj=219 solicitud=171 PERMITIDA 12 10
+230;4;RECIBIR;origen=0 reloj=207 solicitud=172 PERMITIDA 8 10
+231;4;RECIBIR;origen=0 reloj=208 solicitud=174 PERMITIDA 15 10
+232;4;RECIBIR;origen=0 reloj=222 solicitud=180 PERMITIDA 9 10
+233;4;RECIBIR;origen=0 reloj=216 solicitud=159 PERMITIDA 10 10
+234;4;RECIBIR;origen=0 reloj=210 solicitud=162 PERMITIDA 16 10
+235;4;RECIBIR;origen=0 reloj=223 solicitud=176 PERMITIDA 2 10
+236;4;RECIBIR;origen=0 reloj=220 solicitud=169 PERMITIDA 4 10
+237;4;RECIBIR;origen=0 reloj=215 solicitud=167 PERMITIDA 6 10
+238;4;RECIBIR;origen=0 reloj=218 solicitud=160 PERMITIDA 7 10
+239;4;RECIBIR;origen=0 reloj=212 solicitud=161 PERMITIDA 20 10
+240;4;RECIBIR;origen=0 reloj=209 solicitud=175 PERMITIDA 1 10
+241;4;RECIBIR;origen=0 reloj=221 solicitud=158 PERMITIDA 18 10
+242;4;RECIBIR;origen=0 reloj=214 solicitud=173 PERMITIDA 11 10
+243;4;RECIBIR;origen=0 reloj=224 solicitud=164 PERMITIDA 17 10
+244;4;RECIBIR;origen=0 reloj=217 solicitud=168 PERMITIDA 3 10
+245;4;RECIBIR;origen=0 reloj=211 solicitud=166 PERMITIDA 19 10
+246;4;RECIBIR;origen=0 reloj=228 solicitud=182 PERMITIDA 28 10
+247;4;RECIBIR;origen=0 reloj=234 solicitud=178 PERMITIDA 22 10
+248;4;RECIBIR;origen=0 reloj=233 solicitud=181 PERMITIDA 23 10
+249;4;RECIBIR;origen=0 reloj=230 solicitud=185 PERMITIDA 26 10
+250;4;RECIBIR;origen=0 reloj=232 solicitud=179 PERMITIDA 24 10
+251;4;RECIBIR;origen=0 reloj=235 solicitud=163 PERMITIDA 21 10
+252;4;RECIBIR;origen=0 reloj=231 solicitud=183 PERMITIDA 25 10
+253;4;RECIBIR;origen=0 reloj=227 solicitud=186 PERMITIDA 29 10
+254;4;RECIBIR;origen=0 reloj=226 solicitud=177 PERMITIDA 30 10
+255;4;RECIBIR;origen=0 reloj=229 solicitud=184 PERMITIDA 27 10
+256;4;ENVIAR;ESTADO puerta=1 destino=0
+259;4;RECIBIR;origen=0 reloj=258 solicitud=256 PERMITIDA 30 10 P1=CAIDA, P2=CAIDA, P3=CAIDA

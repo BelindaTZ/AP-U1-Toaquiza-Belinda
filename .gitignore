@@ -1,0 +1,5 @@
+/target/
+/.idea/
+/docs/*.aux
+/docs/*.log
+/docs/*.out
